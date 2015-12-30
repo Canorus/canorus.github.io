@@ -13,3 +13,7 @@ github_username:  canorus
 # Build settings
 markdown: redcarpet
 extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+highlighter: pygments
+permalink: pretty
+safe: true
+lsi: true
