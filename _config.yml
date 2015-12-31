@@ -18,4 +18,8 @@ highlighter: pygments
 permalink: pretty
 safe: true
 lsi: true
-gems: [jekyll-paginate]
+gems: 
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-feed
+- jemoji
