@@ -257,7 +257,7 @@ a.previous:hover, a.next:hover {
 }
 
 .inactive {
-    background: transparent;
+    background: #fafafa;
 }
 
 /*==============================
