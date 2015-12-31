@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+Daryl is an open source theme for Jekyll designed to be performant, simple, and readable.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Documentation on how to use this theme is in the repo's [README](https://github.com/andrewcodes/daryl/blob/master/README.md). Jekyll usage documentation can be found at [jekyllrb.com](http://jekyllrb.com/).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+If you would like to contribute to this theme, please see the [Development guidelines](https://github.com/andrewcodes/daryl/blob/master/README.md#development).
