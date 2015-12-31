@@ -238,9 +238,9 @@ code {
 
 .previous {
     float: left;
-    color: #f1f1f1;
+    color: #000000;
     padding: 1em 2em;
-    background: #444;
+    background: transparent;
     text-decoration: none;
 }
 
@@ -257,7 +257,7 @@ a.previous:hover, a.next:hover {
 }
 
 .inactive {
-    background: #999;
+    background: transparent;
 }
 
 /*==============================
