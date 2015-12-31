@@ -253,7 +253,7 @@ code {
 }
 
 a.previous:hover, a.next:hover {
-    background: #222;
+    background: transparent;
 }
 
 .inactive {
