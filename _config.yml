@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://canorus.github.io" # the base hostname & protocol for your site
 twitter_username: psCanor
 github_username:  canorus
+paginate: 5
 
 # Build settings
 markdown: redcarpet
@@ -17,3 +18,4 @@ highlighter: pygments
 permalink: pretty
 safe: true
 lsi: true
+gems: [jekyll-paginate]
