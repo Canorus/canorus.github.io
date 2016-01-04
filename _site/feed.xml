@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Canor의 이야기</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://canorus.github.io/</link>
+    <atom:link href="http://canorus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Jan 2016 16:04:43 +0900</pubDate>
+    <lastBuildDate>Mon, 04 Jan 2016 16:04:43 +0900</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Tweetbot</title>
+        <description>&lt;hr&gt;
+
+&lt;p&gt;layout: post&lt;/p&gt;
+
+&lt;h2&gt;published: false&lt;/h2&gt;
+
+&lt;p&gt;초기 트위터를 키운 수많은 요인 중에 하나가 다양한 서드 파티 앱이라고 들었다. iOS용 트위터 앱 중에 가장 인기있는 앱을 꼽으라면 단연 &lt;a href=&quot;http://tapbots.com/tweetbot/&quot;&gt;트윗봇&lt;/a&gt;일 게다. 오늘 트윗봇 개발자인 Paul Hadda가 &lt;a href=&quot;https://twitter.com/tapbot_paul/status/682973175580262400&quot;&gt;이런 트윗&lt;/a&gt;을 올렸다. 글쎄.&lt;/p&gt;
+
+&lt;p&gt;좋은 앱, 서비스는 그에 상응하는 대가를 받아 마땅하다. 그 연장선 상에는 돈을 받는 앱, 서비스는 그에 상응하는 가치를 제공해야 한다. 트윗봇은 iOS용과 OSX용이 각각 $9.99로 결코 저렴한 앱이라고 볼 수는 없다. 과연 이 둘은 나한테 그만한 가치를 제공하는가 의문이 들었다. 내친 김에 불만을 정리해 보았다.&lt;/p&gt;
+
+&lt;h3&gt;타임라인 이미지&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Resources/2016-01-04/preview_small.png&quot; width=&quot;50%&quot; class=&quot;l-img&quot;&gt; 우선 타임라인 이미지 프리뷰를 보는 게 쉽지가 않다. 누르는 위치에 따라서 다른 이미지가 로딩되기는 하는데 무슨 규칙으로 달라지는지는 쉽게 알 수가 없다. 차라리 하나를 로딩하고 스와이프로 앞뒤로 볼 수 있게 하면 좋겠는데 개발자는 그럴 생각이 없는 것 같다. 이 정도 앱을 만드는 데 그런 걸 생각 안 해볼 리가 없고 뭔가 이유가 있으니 이렇게 만들어 놨을 것 같은데 도대체 이유를 모르겠다. &lt;strike&gt;생각하기 귀찮은 거겠지&lt;/strike&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Resources/2016-01-04/preview_large.png&quot; width=&quot;50%&quot; class=&quot;r-img&quot;&gt;그렇다고 방법이 아주 없는 건 아니고 이미지 프리뷰를 Large로 설정하면 되긴 된다. 물론 타임라인을 잡아먹는 건 감수해야 한다. 아니면 트윗을 스와이프해서 자세히 보기를 열어서 보아도 된다. 개인적으로 타임라인의 부피가 커지는 것을 싫어하기 때문에 그냥 조금 불편을 감수하고 &lt;strike&gt;&lt;span style=&quot;font-size:0.8em&quot;&gt;그러다 귀찮으면 그냥 띵겨먹고&lt;/span&gt;&lt;/strike&gt; 쓰고는 있다만 프리뷰에 스와이프 기능 넣기가 어렵나 설마.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Resources/2016-01-04/preview_large_Arrow.png&quot; width=&quot;50%&quot; class=&quot;l-img&quot;&gt;이미지 순서도 엉망진창이 된다. Large 프리뷰에서 보는 이미지 순서는 좌측과 같다. 좌상단-&amp;gt;우상단-&amp;gt;좌하단-&amp;gt;우하단 순서로 진행된다. 시계방향이 논리적일수도 있었겠지만 이것도 이것 나름대로 논리적이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Resources/2016-01-04/preview_detail.png&quot; width=&quot;50%&quot; class=&quot;r-img&quot;&gt;반대로 디테일 뷰에서 보는 이미지 순서는 완전히 비논리적이다. 좌하단-&amp;gt;우하단-&amp;gt;좌상단-&amp;gt;우상단 순으로 진행된다. 자연히 사용자경험은 엉망이 되어버린다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3&gt;알림 읽음 동기화&lt;/h3&gt;
+
+&lt;p&gt;더 있다. iMessage 같은 경우는 읽음확인 상태도 동기화 시켜준다. 맥에서 읽으면 아이폰 잠금화면에 떠있는 알림이 사라진다. 애플이 만든 앱이라서 그렇다고? Telegram도 한다[^1]. 기술적 한계라고는 보이지 않는데 이런 것도 좀 신경써주지.
+[^1]: Telegram 얘네는 빠른답장도 엄청 일찍 지원하더니 이런 것도 엄청 빠르게 지원하는데 도대체 무슨 수작을 부리는건지 신기할 따름이다.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://canorus.github.io/2016/01/04/Tweetbot.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2016/01/04/Tweetbot.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wtf</title>
+        <description>&lt;p&gt;&lt;br/&gt;
+1학년 입학할 때 영어 과목을 waive받아서 면제됐는데 면제받은 과목도 수강신청을 해야 전공진입이 가능한 것이었다고 한다... Aㅏ... &lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Dec 2015 00:00:00 +0900</pubDate>
+        <link>http://canorus.github.io/2015/12/31/WTF.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2015/12/31/WTF.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tethnic_5th</title>
+        <description>&lt;p&gt;&lt;br/&gt;&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kCAgGt-Va-c&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;br/&gt;
+the best CV in 2015, in personal opinion.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Dec 2015 00:00:00 +0900</pubDate>
+        <link>http://canorus.github.io/2015/12/31/Tethnic_5th.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2015/12/31/Tethnic_5th.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2015년도 다 가고 새해가 한 시간도 채 남지 않은 시점에서</title>
+        <description>&lt;p&gt;모두들 한 해 동안 고생 많으셨고 정말 감사했습니다.
+특히 헛소리 들어주느라 고생한 친구들, 트친분들께 감사하다는 말씀을 전하면서 2016년 한 해도 잘 부탁드립니다.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Dec 2015 00:00:00 +0900</pubDate>
+        <link>http://canorus.github.io/2015/12/31/Goodbye_2015.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2015/12/31/Goodbye_2015.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

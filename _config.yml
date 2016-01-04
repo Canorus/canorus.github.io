@@ -14,6 +14,7 @@ paginate: 5
 
 # Build settings
 markdown: redcarpet
+extensions: ["footnotes"]
 highlighter: pygments
 
 # Gems
