@@ -65,9 +65,16 @@ Since this is an open source project, pull requests for fixes are welcome. If yo
 - [x] Test the installation instructions to make sure it works in a "clean" environment (Mac VM without Jekyll already installed).
 - [ ] Add a left-aligned caption/citation area (release first and save this for later)
 - [ ] Checkout plugins and see if anything is needed (possibly http://www.jekyll-plugins.com/plugins/simple-jekyll-search ?)
+- [ ] Apply layout respectively on Home and Article Posts
 
 ##Changelog
 
+####v.1.0.1~rc1 - 2016-01-06 10-35
+- Layout modified
+- Title Modified
+- Date Modified(h4 and styles)
+
+- - -
 ####v1.0.0 Released - 2015-11-18
 This is the first major release. All tasks directly related to an initial release have been done
 

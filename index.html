@@ -5,9 +5,8 @@ layout: default
 <div class="home">
   {% for post in paginator.posts %}
     <article class="post">
-      <h2 class="post-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %d, %Y' }}</time>
+      <h2 class="post-title" style="text-align:center"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <h4 class="time" style="text-align:center;line-height:1;-webkit-margin-before:0em"> <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %d, %Y' }}</time></h3>
 
       {{ post.content }}
 

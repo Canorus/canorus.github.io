@@ -6,12 +6,29 @@
 </description>
     <link>http://canorus.github.io/</link>
     <atom:link href="http://canorus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 00:18:47 +0900</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 00:18:47 +0900</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2016 10:36:11 +0900</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2016 10:36:11 +0900</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>2012년 홈화면과 2016년 홈화면</title>
+        <title>Tweet embed 중앙정렬하기</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://canorus.github.io/2016/01/05/2012vs2016.html&quot;&gt;2012년 홈화면과 2016년 홈화면 포스트&lt;/a&gt;를 적다가 트윗 임베드가 중앙정렬이 안 되어서 해결법을 찾아 적어놓는다.&lt;/p&gt;
+
+&lt;p&gt;우선 보통처럼 트윗의 embed code를 복사한다.&lt;/p&gt;
+
+&lt;p&gt;그 중에서 &lt;code&gt;&amp;lt;blockquote class=&amp;quot;twitter-tweet&lt;/code&gt; 뒤에 &lt;code&gt;tw-align-center&lt;/code&gt;을 추가한다. 즉, &lt;code&gt;&amp;lt;blockquote class=&amp;quot;twitter-tweet tw-align-center&amp;quot;&amp;gt;&lt;/code&gt;가 된다.&lt;/p&gt;
+
+&lt;p&gt;수정한 코드를 붙여넣는다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://canorus.github.io/2016/01/06/Tweet_embed_center_align.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2016/01/06/Tweet_embed_center_align.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2011년 홈화면과 2016년 홈화면</title>
         <description>&lt;p&gt;&lt;br/&gt;
 &lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; lang=&quot;ko&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;My Home screen: 2012 vs 2016. What does yours look like? &lt;a href=&quot;https://t.co/CjkDE58b9R&quot;&gt;pic.twitter.com/CjkDE58b9R&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sébastien Page (@SebastienPage) &lt;a href=&quot;https://twitter.com/SebastienPage/status/684184371201359872&quot;&gt;2016년 1월 5일&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -35,20 +52,8 @@
 &lt;p&gt;아마도 6s를 사게 되면 하려나&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://canorus.github.io/2016/01/05/2012vs2016.html</link>
-        <guid isPermaLink="true">http://canorus.github.io/2016/01/05/2012vs2016.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Wtf</title>
-        <description>&lt;p&gt;&lt;br/&gt;
-1학년 입학할 때 영어 과목을 waive받아서 면제됐는데 면제받은 과목도 수강신청을 해야 전공진입이 가능한 것이었다고 한다... Aㅏ... &lt;/p&gt;
-</description>
-        <pubDate>Thu, 31 Dec 2015 00:00:00 +0900</pubDate>
-        <link>http://canorus.github.io/2015/12/31/WTF.html</link>
-        <guid isPermaLink="true">http://canorus.github.io/2015/12/31/WTF.html</guid>
+        <link>http://canorus.github.io/2016/01/05/2011vs2016.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2016/01/05/2011vs2016.html</guid>
         
         
       </item>
