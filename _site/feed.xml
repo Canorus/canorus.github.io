@@ -6,9 +6,37 @@
 </description>
     <link>http://canorus.github.io/</link>
     <atom:link href="http://canorus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 10:36:11 +0900</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 10:36:11 +0900</lastBuildDate>
+    <pubDate>Thu, 14 Jan 2016 10:39:49 +0900</pubDate>
+    <lastBuildDate>Thu, 14 Jan 2016 10:39:49 +0900</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>알프레드 2.8.2 업데이트</title>
+        <description>&lt;p&gt;키보드 런쳐 앱 알프레드가 2.8.2로 업데이트되었다. 이하는 full changelog.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-8-2&quot;&gt;2.8.2&lt;/h3&gt;
+
+&lt;h4 id=&quot;12th-jan-2015&quot;&gt;12th Jan 2015&lt;/h4&gt;
+
+&lt;hr&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1Password compatibility improvements&lt;/li&gt;
+&lt;li&gt;Set default scheme on a 1Password bookmark if missing&lt;/li&gt;
+&lt;li&gt;Show 1Password data path in Alfred&amp;rsquo;s advanced preferences when discovering data automatically&lt;/li&gt;
+&lt;li&gt;Fully encode the exported URL from Alfred&amp;rsquo;s custom search instead of being aware of odd custom search URLs on import&lt;/li&gt;
+&lt;li&gt;Fix only listing matching default scope folders in Alfred&amp;rsquo;s results if they actually exist&lt;/li&gt;
+&lt;li&gt;Fix crash when closing workflow related remote page configuration&lt;/li&gt;
+&lt;li&gt;Fix &amp;ldquo;search in spotlight&amp;rdquo; alt action when the keyword length is less than the query length&lt;/li&gt;
+&lt;li&gt;Remove ATS TLS 1.0 exception for CacheFly connection, as the CDN is now capable of TLS 1.2&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 14 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://canorus.github.io/2016/01/14/Alfred_2.8.2.html</link>
+        <guid isPermaLink="true">http://canorus.github.io/2016/01/14/Alfred_2.8.2.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tweet embed 중앙정렬하기</title>
