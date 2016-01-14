@@ -1,5 +1,5 @@
 ---
-layout: postleft
+layout: post
 title: Tweet embed 중앙정렬하기
 published: true
 ---
