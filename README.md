@@ -1,83 +1,49 @@
-#Daryl
+Jekyll Clean Dark
+============
 
-Daryl is a performant and responsive [Jekyll](http://jekyllrb.com) theme. It aims to be simply designed and above-all, highly-readable. This is a screenshot of the Daryl theme as it stands now:
-![Daryl screenshot](https://raw.githubusercontent.com/andrewcodes/daryl/master/daryl-screenshot.png)
+This theme was created on top of Jekyll Clean theme by Scotte, you can view the originnal version in action [on his blog](https://scotte.github.io).
 
-The name of this theme is from [Daryl Dixon](http://walkingdead.wikia.com/wiki/Daryl_Dixon_(TV_Series)), of the Walking Dead. Great character from a stellar television show.
+* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
+* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
+* See it [in action on my own blog](http://pavelmakhov.com).
 
-##This theme is:
+This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
+sidebar.
 
-- Mobile-first and by nature, performant-first
-- Responsive by default
-- Small file size
-- No Sass/Less. Vanilla HTML and CSS.
-- Includes an Archive/Post-list page template.
+Optionally you can use:
 
-##Installation
+ - [Disqus](http://disqus.com) as a comments system;
+ - [Google Analytics](http://www.google.com/analytics/);
+ - [Yandex Metrika](http://metrica.yandex.com);
+ - Blog tags.
 
-* Install the Command Line Developer Tools or Xcode (which includes the Command Line Developer Tools) if you don't already have it installed.
-```bash
-xcode-select --install
-```
-More info [here](http://jekyllrb.com/docs/installation/) on Jekyll prerequisites.
+All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social acounts. It uses font-awesome, so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
 
-* Install [Jekyll](http://jekyllrb.com):
-```bash
-gem install jekyll
-```
+Installation
+==
 
-* Install the jekyll-paginate gem:
-```bash
-gem install --user-install --bindir ~/bin --no-document --pre jekyll-paginate
-```
+If you dont't have your own blog you can clone this repository and put your articles in a `_posts` folder.
+If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
 
-* Install the pygments gem for syntax highlighting:
-```bash
-gem install pygments.rb
-```
+After you will have to set up your `_config.yml`
 
-* Run git clone to download this repo to your machine:
-```bash
-git clone https://github.com/andrewcodes/daryl.git
-```
+License
+=======
 
-* Run ```jekyll serve``` from the terminal
+The content of this theme is distributed and licensed under a
+[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-* Browse to http://localhost:4000 to see your site
+    This license lets others distribute, remix, tweak, and build upon your work,
+    even commercially, as long as they credit you for the original creation. This
+    is the most accommodating of licenses offered. Recommended for maximum
+    dissemination and use of licensed materials.
 
-* Before deploying your site to a produciton enviornment, remove lines 16-27 in the "_includes/head.html" file as this contains my own Google Analytics code.
+In other words: you can do anything you want with this theme on any site, just please
+provide a link to the original theme on github.
 
-##Development
+This theme includes the following files which are the properties of their
+respective owners:
 
-Daryl’s *Master* branch is the “clean branch”. *Master* is ready to be deployed at all times once this theme is released. All development will be done on their own branches in a SEMVER style. If a patch or feature needs to be pushed to _Master_, a 1.1.0 (for feature) or 1.0.1 (for a patch/fix) will be created and developed on.
-
-Since this is an open source project, pull requests for fixes are welcome. If you would like to change the design of this theme, please fork this project.
-
-##Tasks
-
-- [X] Add a site description div under the site title h1
-- [X] Add an Archives page
-- [X] Add page navigation
-- [X] Move my site over. Git clone to a new directory then copy posts over from old andrewlee.name directory. Upload. CANCELLED
-- [X] Test RSS feed
-- [X] Add a favicon
-- [X] Add a new screenshot from a portrait monitor
-- [x] Test the installation instructions to make sure it works in a "clean" environment (Mac VM without Jekyll already installed).
-- [ ] Add a left-aligned caption/citation area (release first and save this for later)
-- [ ] Checkout plugins and see if anything is needed (possibly http://www.jekyll-plugins.com/plugins/simple-jekyll-search ?)
-- [ ] Apply layout respectively on Home and Article Posts
-
-##Changelog
-
-####v.1.0.1~rc1 - 2016-01-06 10-35
-- Layout modified
-- Title Modified
-- Date Modified(h4 and styles)
-
-- - -
-####v1.0.0 Released - 2015-11-18
-This is the first major release. All tasks directly related to an initial release have been done
-
-##License
-
-This theme is open sourced under the [MIT license](https://github.com/andrewcodes/daryl/blob/gh-pages/LICENSE).
+* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
+* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
+* js/jquery.min.js - [jquery](https://jquery.com)

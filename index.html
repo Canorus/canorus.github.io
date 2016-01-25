@@ -1,30 +1,36 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="home">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <h2 class="post-title" style="text-align:center"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <h4 class="time" style="text-align:center;line-height:1;-webkit-margin-before:0em"> <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date: '%B %d, %Y' }}</time></h3>
+{% for post in site.posts limit:10 %}
+  <h2 class="post-title">
+    <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
+      {{ post.title }}
+    </a>
+  </h3>
 
-      {{ post.content }}
+  <div class="post-meta">
+  <div class="post-time">
+    <i class="fa fa-calendar"></i>
+    <time>{{ post.date | date_to_string }}</time>
+  </div>
+  <ul>
+    {% for tag in post.tags %}
+    <li><a href="{{site.baseurl | prepend:site.url}}/tag/{{ tag }}">{{ tag }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
-      <hr>
-    </article>
+  <div class="post-descr">
+    <p>
+      {{ post.description }}
+    </p>
+  </div>
   {% endfor %}
 
-    <!-- Pagination links -->
-    <div class="pagination">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% else %}
-            <span class="inactive previous">Previous</span>
-        {% endif %}
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-            <span class="inactive next">Next</span>
-        {% endif %}
-    </div>
+
+<div class="post-footer">
+  <div class="column-full">
+    <h3><a href="{{ '/archive.html' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></h3>
+  </div>
 </div>
