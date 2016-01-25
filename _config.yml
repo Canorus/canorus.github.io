@@ -12,10 +12,6 @@ baseurl: ''
 
 social:
   github: canorus
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
