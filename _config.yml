@@ -11,11 +11,12 @@ url: http://canorus.github.io
 baseurl: ''
 
 social:
+  twitter: psCanor
   github: canorus
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key:
+google_analytics_key: UA-72894573-1
 # Yandex metrika (https://metrica.yandex.com/) leave blanc to ignore or put true to use
 yandex_metrica:
 
@@ -23,8 +24,8 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
-comments: false
+disqus: canor
+comments: true
 
 permalink: /:year/:month/:title
 
