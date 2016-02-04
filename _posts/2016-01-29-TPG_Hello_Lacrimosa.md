@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 ---
 
 TPG에서 신곡을 유투브에 올렸다. Adell의 Hello와 모짜르트의 Lacrimosa. 지난 번 Let it go와 비발디의 Winter를 엮었던 것처럼 현대 대중 음악과 고전 음악을 섞는 쪽으로 가고 있다는 느낌.
