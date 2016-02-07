@@ -2,7 +2,6 @@
 ---
 layout: post
 permalink: 새로운-열매를-바라시며
-menu: private
 ---
 <div style="text-align:center">
     <audio controls>
