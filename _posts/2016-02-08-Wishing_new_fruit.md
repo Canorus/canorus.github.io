@@ -1,5 +1,9 @@
 
-
+---
+layout: post
+permalink: 새로운-열매를-바라시며
+menu: private
+---
 <div style="text-align:center">
     <audio controls>
 	<source src="https://github.com/Canorus/canorus.github.io/blob/master/Resources/2016-02-07/또%20하나의%20열매를%20바라시며.mp3?raw=true" type="audio/mp3">
