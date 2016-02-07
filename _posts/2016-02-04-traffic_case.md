@@ -1,5 +1,5 @@
 ---
-layout: page_plain
+layout: post
 permalink: traffic-accident-case
 menu: private
 ---
