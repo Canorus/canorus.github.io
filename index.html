@@ -7,6 +7,9 @@ layout: page
     <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
       {{ post.title }}
     </a>
+    {% if post.menu == 'private' %}
+      <li><a href="{{post.url|prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endif % }
   </h3>
 
   <div class="post-meta">
@@ -26,7 +29,7 @@ layout: page
       {{ post.description }}
     </p>
   </div>
-  {% endfor %}
+{% endfor %}
 
 
 <div class="post-footer">
