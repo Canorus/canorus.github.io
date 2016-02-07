@@ -4,12 +4,11 @@ layout: page
 
 {% for post in site.posts limit:10 %}
   <h2 class="post-title">
+    {% unless menu == 'private' %}
     <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
       {{ post.title }}
     </a>
-    {% if post.menu == 'private' %}
-      <li><a href="{{post.url|prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endif % }
+    {% endunless %}
   </h3>
 
   <div class="post-meta">
