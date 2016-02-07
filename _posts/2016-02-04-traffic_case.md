@@ -1,6 +1,7 @@
 ---
 layout: page_plain
 permalink: traffic-accident-case
+menu: private
 ---
 안전거리 위반사건 [1983. 8. 23. 82도3222](http://glaw.scourt.go.kr/wsjo/panre/sjo100.do?bubNm=%EB%8C%80%EB%B2%95%EC%9B%90&saNo=82%EB%8F%843222)
 
