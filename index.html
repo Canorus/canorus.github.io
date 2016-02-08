@@ -3,12 +3,11 @@ layout: page
 ---
 
 {% for post in site.posts limit:10 %}
+  {% unless post.menu == 'private' %}
   <h2 class="post-title">
-      {% unless post.menu == 'private' %}
       <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
       	{{ post.title }}
       </a>
-      {% endunless %}
   </h2>
 
   <div class="post-meta">
@@ -28,6 +27,7 @@ layout: page
       {{ post.description }}
     </p>
   </div>
+  {% endunless %}
 {% endfor %}
 
 
