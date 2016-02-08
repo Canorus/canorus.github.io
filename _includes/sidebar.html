@@ -2,7 +2,9 @@
   <h2>Recent Posts</h2>
   <ul>
     {% for post in site.posts limit:5 %}
+    {% unless post.menu == 'private' %}
     <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    {% endunless %}
     {% endfor %}
   </ul>
 </div>
