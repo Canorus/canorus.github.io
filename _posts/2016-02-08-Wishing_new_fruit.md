@@ -1,5 +1,6 @@
 ---
 layout: post
+menu: private
 ---
 <div style="text-align:center">
     <audio controls>
