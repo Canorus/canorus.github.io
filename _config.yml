@@ -36,7 +36,5 @@ permalink: /:year/:month/:title
 highlighter: rouge
 
 markdown: kramdown
-# kramdown:
-#  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "footnotes"]
 
 exclude: ['README.md', 'LICENSE']
