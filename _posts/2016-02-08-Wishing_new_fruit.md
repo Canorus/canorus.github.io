@@ -1,6 +1,7 @@
 ---
 layout: post
 menu: private
+permalink: 또-하나의-열매를-바라시며
 ---
 <div style="text-align:center">
     <audio controls>
