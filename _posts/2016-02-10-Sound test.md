@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-<!DOCTYPE html>
+
 <html>
 <head>
 
@@ -10,19 +10,17 @@ layout: post
     <script type="text/javascript" src="player/js/mootools-cnet-debug.js"></script> 
     <script type="text/javascript" src="player/js/mootools-1.2.4-core.js "></script>
     <script type="text/javascript" src="player/js/IdleTimer.js"></script>
-    
     <script type="text/javascript" src="player/js/AudioCheck-nc.js"></script>
     <script type="text/javascript" src="player/js/mtAudioPlayer-nc.js"></script>
     <script type="text/javascript" src="player/js/mtAudioPlayerUI-nc.js"></script>
     <script type="text/javascript" src="player/js/mtAudioPlaylist-nc.js"></script>
-
     <style type="text/css" media="screen">
         #mooTunes{
             margin:0 auto 100px;
             width:300px;
         }
     </style>
-        
+
     <link rel="stylesheet" href="player/css/mooTunes/mooTunes-nc.css" type="text/css" media="screen" title="mtAudio Player Style Sheet" charset="utf-8" />
     
     <script type="text/javascript" charset="utf-8">
