@@ -7,13 +7,13 @@ layout: post
 
 </head>
 <body>
-    <script type="text/javascript" src="/player/js/mootools-cnet-debug.js"></script> 
-    <script type="text/javascript" src="/player/js/mootools-1.2.4-core.js "></script>
-    <script type="text/javascript" src="/player/js/IdleTimer.js"></script>
-    <script type="text/javascript" src="/player/js/AudioCheck-nc.js"></script>
-    <script type="text/javascript" src="/player/js/mtAudioPlayer-nc.js"></script>
-    <script type="text/javascript" src="/player/js/mtAudioPlayerUI-nc.js"></script>
-    <script type="text/javascript" src="/player/js/mtAudioPlaylist-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mootools-cnet-debug.js"></script> 
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mootools-1.2.4-core.js "></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/IdleTimer.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/AudioCheck-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mtAudioPlayer-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mtAudioPlayerUI-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mtAudioPlaylist-nc.js"></script>
 
     <style type="text/css" media="screen">
         #mooTunes{
@@ -22,7 +22,7 @@ layout: post
         }
     </style>
 
-    <link rel="stylesheet" href="/player/css/mooTunes/mooTunes-nc.css" type="text/css" media="screen" title="mtAudio Player Style Sheet" charset="utf-8" />
+    <link rel="stylesheet" href="{{site.baseurl | prepend:site.url}}/player/css/mooTunes/mooTunes-nc.css" type="text/css" media="screen" title="mtAudio Player Style Sheet" charset="utf-8" />
     
     <script type="text/javascript" charset="utf-8">
         var mooTunes, playlist, mtPlayer, tinyToggle, tinyToggleTimer;
@@ -40,7 +40,7 @@ layout: post
                 return;
             }
             
-           playlist = [ {artist : "레베(Reve)", name : "바람의 꽃이 되어서", mp3:"/Resources/2016-02-10/A flower of the wind.mp3",}/*, 
+           playlist = [ {artist : "레베(Reve)", name : "바람의 꽃이 되어서", mp3:"{{site.baseurl | prepend:site.url}}/Resources/2016-02-10/A flower of the wind.mp3",}/*, 
                         {artist : "Artist Two", mp3:"player/media/2.mp3",ogg:"player/media/2.ogg"}, 
                         {artist : "Artist Three", mp3:"player/media/3.mp3",ogg:"player/media/3.ogg"}*/
                         ];
