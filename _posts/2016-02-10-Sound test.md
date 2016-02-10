@@ -7,13 +7,13 @@ layout: post
 
 </head>
 <body>
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mootools-cnet-debug.js"></script> 
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mootools-1.2.4-core.js "></script>
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/IdleTimer.js"></script>
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/AudioCheck-nc.js"></script>
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mtAudioPlayer-nc.js"></script>
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mtAudioPlayerUI-nc.js"></script>
-    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/player/js/mtAudioPlaylist-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/mootools-cnet-debug.js"></script> 
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/mootools-1.2.4-core.js "></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/IdleTimer.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/AudioCheck-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/mtAudioPlayer-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/mtAudioPlayerUI-nc.js"></script>
+    <script type="text/javascript" src="{{site.baseurl | prepend:site.url}}/js/mtAudioPlaylist-nc.js"></script>
 
     <style type="text/css" media="screen">
         #mooTunes{
