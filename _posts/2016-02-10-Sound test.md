@@ -40,9 +40,7 @@ layout: post
                 return;
             }
             
-           playlist = [ {artist : "레베(Reve)", name : "바람의 꽃이 되어서", mp3:"{{site.baseurl | prepend:site.url}}/Resources/2016-02-10/A flower of the wind.mp3",}/*, 
-                        {artist : "Artist Two", mp3:"player/media/2.mp3",ogg:"player/media/2.ogg"}, 
-                        {artist : "Artist Three", mp3:"player/media/3.mp3",ogg:"player/media/3.ogg"}*/
+           playlist = [ {artist : "레베(Reve)", name : "바람의 꽃이 되어서", mp3:"{{site.baseurl | prepend:site.url}}/Resources/2016-02-10/A flower of the wind.mp3",}
                         ];
      
 
