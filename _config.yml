@@ -35,6 +35,8 @@ permalink: /:year/:month/:title
 
 highlighter: rouge
 
-markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 exclude: ['README.md', 'LICENSE']
