@@ -33,10 +33,8 @@ permalink: /:year/:month/:title
 # Enable for using pages, more details are here: http://jekyllrb.com/docs/pagination/
 #paginate: 3
 
-highlighter: pygments
+highlighter: rouge
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "footnotes"]
+markdown: kramdown
 
 exclude: ['README.md', 'LICENSE']
