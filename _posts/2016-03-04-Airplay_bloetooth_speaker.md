@@ -4,7 +4,8 @@ title: 에어플레이 스피커에 블루투스 리시버를 이어주었다.
 permalink: bluetooth-receiver-on-airplay-speaker
 published: true
 ---
-![](/images/2016-03-04/airplay_bluetooth_speaker.JPG)
+![](/images/2016-03-04/airplay_bluetooth_speaker.JPG){: .center-image }난잡하기 이를 데 없는 선배치.
+
 <br/>
 우리 집은 크다. 집 크다고 자랑하려는 게 아니고 식구가 다섯이다 보니 자연스럽게 큰 집에서 살 수 밖에 없다<s>아냐 그거 감안해도 커</s>. 그러다보니 아무래도 유선으로 연결하는 건 어렵다. 자연스레 무선을 찾게 된다.
 <br/>
