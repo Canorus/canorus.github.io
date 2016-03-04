@@ -2,7 +2,7 @@
 layout: post
 title: 에어플레이 스피커에 블루투스 리시버를 이어주었다.
 permalink: bluetooth-receiver-on-airplay-speaker
-published: true
+published: false
 ---
 ![](/images/2016-03-04/airplay_bluetooth_speaker.JPG)
 
