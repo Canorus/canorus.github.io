@@ -83,8 +83,8 @@ tateu가 만든 [OpenNotifier9](https://cydia.saurik.com/api/share#?source=http:
 
 ### 16.읽음 확인은 끔찍하다, 안드로이드에서는 신경 쓸 필요가 없다.
 
-그렇지. 신경 쓸 이유가 없지. 안드로이드에서는 iMessage를 쓸 수 없으니까.[ˆ6]
+그렇지. 신경 쓸 이유가 없지. 안드로이드에서는 iMessage를 쓸 수 없으니까.[ˆ7]
 
-[ˆ6]: 뭐 중국에 있는 서버를 통해서 애플 ID랑 비밀번호를 모두 주고 쓸 수*는* 있다고 한다.
+[ˆ7]: 뭐 중국에 있는 서버를 통해서 애플 ID랑 비밀번호를 모두 주고 쓸 수*는* 있다고 한다.
 
 예전에 읽었던 글을 찾다 [이런 글](http://thehackernews.com/2016/02/apple-iMessage-for-android.html)이 있더라. 과연 애플이 안드로이드 용 iMessage를 내놓으면 읽음 확인이 들어가는지 보기로 하자.
