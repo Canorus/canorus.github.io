@@ -39,6 +39,7 @@ tag:
 그리고 AirDrop이 나오면서 ~~흠 AirDrop은 Windows에서는 작동하지 않던가~~, 그리고 비슷한 유형의 서드파티 앱*들*[^6]이 나오면서 아이튠즈나 아이포토를 거치지 않고도 미디어를 옮길 수 있게 되었다. 그리고 *대부분 안드로이드나 윈도우즈 등 여러 운영체제를 지원한다*.
 
 [^5]: 물론 이건 내가 맥 유저라 그렇고 악명높은 Windows 사용자라면 이야기가 다르겠다. 하지만 나는 내 어머니가 아이폰을 3년 남짓 쓰시면서 컴퓨터에 연결하시는 걸 본 적이 없다. 심지어 대학 동기가 물어왔을 때 아이튠즈에 연결하고 백업하라고 하니 한 번도 해 본 적이 없다는 대답도 들어봤다.
+
 [^6]: [Snapdrop](https://snapdrop.net), [Flick](http://getflick.io), [DeskConnect](https://itunes.apple.com/kr/app/deskconnect/id642220194?mt=12), [SendAnywhere](https://send-anywhere.com), [Instashare](http://instashareapp.com), 그리고 한국인이 만든 것 같은 [Bucket](https://bucket.to)까지 이미 이 영역은 레드 오션이라고 불러도 손색이 없을 것 같다. 개인적으로 사용하고 있는 서비스는 AirDrop에 Instashare를 보조적으로 사용하고 있다.
 
 ### 6.안드로이드는 어떤 마이크로USB 케이블로도 충전이 가능하지만 아이폰은 비싼 전용 라이트닝 케이블로만 충전이 가능하다.
@@ -83,8 +84,8 @@ tateu가 만든 [OpenNotifier9](https://cydia.saurik.com/api/share#?source=http:
 
 ### 16.읽음 확인은 끔찍하다, 안드로이드에서는 신경 쓸 필요가 없다.
 
-그렇지. 신경 쓸 이유가 없지. 안드로이드에서는 iMessage를 쓸 수 없으니까.[ˆ7]
-
-[ˆ7]: 뭐 중국에 있는 서버를 통해서 애플 ID랑 비밀번호를 모두 주고 쓸 수*는* 있다고 한다.
+그렇지. 신경 쓸 이유가 없지. 안드로이드에서는 iMessage를 쓸 수 없으니까.[^7]
 
 예전에 읽었던 글을 찾다 [이런 글](http://thehackernews.com/2016/02/apple-iMessage-for-android.html)이 있더라. 과연 애플이 안드로이드 용 iMessage를 내놓으면 읽음 확인이 들어가는지 보기로 하자.
+
+[^7]: 뭐 중국에 있는 서버를 통해서 애플 ID랑 비밀번호를 모두 주고 쓸 수*는* 있다고 한다.
