@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 깃헙 블로그에서 사진이 ~~이유없이~~ 회전하는 문제
+title: 깃헙 블로그에서 사진이 <s>이유없이</s> 회전하는 문제
 published: true
 ---
 
