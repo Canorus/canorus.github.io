@@ -9,13 +9,13 @@ published: true
 
 너무 오랜만에 꺼내다 보니까 일단 상태부터 본다.
 
-![](/Resources/2016-03-25/Upper.JPG){: .center-image }아니나다를까 붕 떠 있다.
+![](/Resources/2016-03-25/Upper.JPG){: .center-image }*아니나다를까 붕 떠 있다.
 
 역시 수리를 맡겨야 할 것 같은데 사장님한테 얻어맞지 않으면 다행이려나(웃음)
 
 뒷판을 본다.
 
-![](/Resources/2016-03-25/Lower.JPG){: center-image }뒷판도 떠 있다.
+![](/Resources/2016-03-25/Lower.JPG){: .center-image }뒷판도 떠 있다.
 
 나름대로 풀어놓고 넣었는데 워낙 오랫동안 방치하다 보니 몰골이 말이 아니다. 수리맡기러 갈 때 죽었다고 생각해야 할 것 같다 ㅇㅅㅇ
 
