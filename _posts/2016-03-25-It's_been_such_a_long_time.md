@@ -15,7 +15,7 @@ published: true
 
 뒷판을 본다.
 
-![](/Resources/2016-03-25/Lower.JPG){: .center-image }뒷판도 떠 있다.
+![](/Resources/2016-03-25/Lower.JPG){: .center-image }*뒷판도 떠 있다.*
 
 나름대로 풀어놓고 넣었는데 워낙 오랫동안 방치하다 보니 몰골이 말이 아니다. 수리맡기러 갈 때 죽었다고 생각해야 할 것 같다 ㅇㅅㅇ
 
