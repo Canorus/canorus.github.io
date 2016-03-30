@@ -1,3 +1,10 @@
+---
+layout: post
+title: El Capitan에서 블루투스가 비활성화 된 경우 해결책
+tag:
+ - OSX
+---
+
 ![](Resources/2016-03-30/bluetooth_not_available.jpeg)
 
 Mac mini에서 El Capitan을 사용하던 중 위 사진과 같은 아이콘이 뜨면서 블루투스 연결이 완전히 비활성화 되는 것을 경험했습니다. 어쩔 수 없이 강제로 리부팅을 한 후에 찾아본 해결책을 공유하고자 합니다.
