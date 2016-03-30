@@ -21,6 +21,6 @@ Mac mini에서 El Capitan을 사용하던 중 위 사진과 같은 아이콘이 
 
 - - -
 
-이미지 : [google: banganet.me](https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjruIDIsejLAhUI26YKHdMaA4MQjRwIBw&url=http%3A%2F%2Fwww.banganet.me%2Fapple%2FMacBook-Pro%2F66435-Bluetooth-not-available-after-El-Capitan-upgrade&psig=AFQjCNGAFN-PzYK_xnK-btUhUA3VIwOJAA&ust=1459426346226829)
-via [osXDaily](http://osxdaily.com/2015/12/15/reset-bluetooth-hardware-module-mac-osx/)
+이미지 : [google: banganet.me](https://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjruIDIsejLAhUI26YKHdMaA4MQjRwIBw&url=http%3A%2F%2Fwww.banganet.me%2Fapple%2FMacBook-Pro%2F66435-Bluetooth-not-available-after-El-Capitan-upgrade&psig=AFQjCNGAFN-PzYK_xnK-btUhUA3VIwOJAA&ust=1459426346226829)  
+via [osXDaily](http://osxdaily.com/2015/12/15/reset-bluetooth-hardware-module-mac-osx/)  
 via [igeeksblog](http://www.igeeksblog.com/fix-bluetooth-not-available-error-mac/)
