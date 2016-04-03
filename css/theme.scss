@@ -1,6 +1,7 @@
 ---
 ---
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
 @mixin font-size($size) {
   font-size: $size;
   font-size: calculateRem($size);
@@ -67,6 +68,7 @@ h6 { font-size: .75em; }
 
 .post-content{
   line-height: 1.7em;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .author {
