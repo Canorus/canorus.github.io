@@ -40,12 +40,15 @@ body {
   line-height: 1em;
 }
 
+div.article{
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .well {
   background-color: #444;
   box-shadow: 0px 0px 0px 0px, 0px 8px 16px rgba(0, 0, 0, 0.2);
   border: 0px;
   border-radius: 6px;
-  font-family: 'Noto Sans', sans-serif;
 }
 .well > main-page {
   width: 75%;
