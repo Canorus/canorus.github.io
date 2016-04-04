@@ -14,6 +14,10 @@ Seagate에서 외부 전원 장치가 필요없는 8TB 하드드라이브를 선
 
 - - -
 
+외부 전원 필요없이 USB-C 케이블 하나로 파워+데이터 전송이 가능해서 데스크탑 외에도 랩탑 시장에서도 인기가 많을 것으로 추정하는 듯
+
+- - -
+
 via [Seagate](http://www.seagate.com/kr/ko/about-seagate/news/seagate-launches-worlds-first-usb-powered-master-pr/)
 
 via [theVerge](http://www.theverge.com/2016/3/30/11331228/seagate-innov8-8tb-usb-c-drive-hard-drive-pricing-release-date)
