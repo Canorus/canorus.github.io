@@ -1,6 +1,6 @@
 ---
 ---
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 @mixin font-size($size) {
   font-size: $size;
@@ -18,7 +18,7 @@ body {
   color: #ddd;
   background-color: #292929;
   background-image: url(./pics/triangles.png);
-  font-family: 'Noto Sans', 'Noto Sans CJK KR', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 .copyright {
   color: #ffffff;
