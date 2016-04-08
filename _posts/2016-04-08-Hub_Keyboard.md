@@ -11,7 +11,7 @@ MicroSoft에서 Hub Keyboard 라는 키패드 앱을 출시한 모양. OneDrive�
 
 - - -
 
-글쎄 개인적으로는 iOS 기본 키패드와 Fleksy Keyboard를 커스텀해서 섞어 쓰고 있는데 SlideShiftCaret[^slideshiftcaret]이나 SlideCut[^slidecut}을 업고 있는 기본 iOS 키보드가 기능 면에서는 뛰어나고 Fleksy Keyboard가 미적인 측면에서는 뛰어나다. 때문에 그 외의 서드파티 키보드에 대해서 관심이 그리 가지 않는 편. 더구나 OneDrive보다는 GoogleDrive에의 의존도가 높은 내 사용방식도 무관심에 한 몫을 하겠지.
+글쎄 개인적으로는 iOS 기본 키패드와 Fleksy Keyboard를 커스텀해서 섞어 쓰고 있는데 SlideShiftCaret[^slideshiftcaret]이나 SlideCut[^slidecut]을 업고 있는 기본 iOS 키보드가 기능 면에서는 뛰어나고 Fleksy Keyboard가 미적인 측면에서는 뛰어나다. 때문에 그 외의 서드파티 키보드에 대해서 관심이 그리 가지 않는 편. 더구나 OneDrive보다는 GoogleDrive에의 의존도가 높은 내 사용방식도 무관심에 한 몫을 하겠지.
 
 [^slideshiftcaret]: 키보드를 좌우로 밀어서 커서를 옮겨주는 Springboard Extension. LG G4의 그것을 생각하시면 되겠다.
 
