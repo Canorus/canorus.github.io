@@ -17,8 +17,6 @@ MicroSoft에서 Hub Keyboard 라는 키패드 앱을 출시한 모양. OneDrive�
 
 [^slidecut]: 스페이스로부터 드래그하여 특정 문자에서 손을 떼면 해당 텍스트 관련 단축키를 실행시켜주는 Springboard Extension. `space -> c`는 copy, `space -> v`는 paste 식으로.
 
-- - -
-
 via [theVerge](http://www.theverge.com/2016/4/7/11390072/microsoft-garage-hub-keyboard-ios-mobile-app?utm_campaign=theverge&utm_content=chorus&utm_medium=social&utm_source=twitter)  
 via [iDownloadBlog](http://www.idownloadblog.com/2016/04/07/microsoft-hub-keyboard-live/)  
 via [MSPowerUSer](http://mspoweruser.com/microsoft-garages-hub-keyboard-now-available-iphone/)  
