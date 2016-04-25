@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Tags 
-
+title: Tags
 ---
 
 <div class="page-content wc-container">
