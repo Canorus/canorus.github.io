@@ -1,7 +1,7 @@
 ---
 layout: post
 menu: private
-title:  
+title: 생각해보면
 permalink: come-to-think-of-it
 ---
 생각해보면  
