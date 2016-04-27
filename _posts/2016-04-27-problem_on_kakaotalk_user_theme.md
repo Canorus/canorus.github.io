@@ -19,7 +19,7 @@ published: true
 
 다행이라고 해야 할 지 저만 그런 게 아니더군요. [아사모 글1](http://cafe.naver.com/appleiphone/3437410), [아사모 글2](http://cafe.naver.com/appleiphone/3453202), [맥쓰사 글](http://cafe.naver.com/inmacbook/966891). 다만 국내 맥 사용자 수가 *비교적* 많지 않은 탓인지 명쾌한 해결책을 제시하는 글이 없었어요. 그렇게 4년 동안 고민하다 오늘 점심에 한 가지를 빼먹었다는 것을 깨달았습니다. 압축 구조 문제였죠.
 
-탈옥 사용자들이 Springboard에 테마를 입힐 때 가장 많이 쓰는 툴 중에 Winterboard라는 게 있습니다. 폴도 구조대로 배열된 리소스를 가져와서 해당하는 요소 위에 덧입히는 건데요, 처음 테마를 적용해보는 분들이 많이 범하는 실수 중에 하나가 최상위 폴더를 하나 더 적용하는 겁니다. 알집이나 다른 압축 해제 프로그램으로 압축을 해제할 때 설정에 따라 최상위 폴더를 생성하고 그 안에 내용물을 풀어놓는데 이걸 그대로 가져다 리소스로 올리는 거죠. 당연히 인식하지 못합니다.
+탈옥 사용자들이 Springboard에 테마를 입힐 때 가장 많이 쓰는 툴 중에 Winterboard라는 게 있습니다. 폴더 구조대로 배열된 리소스를 가져와서 해당하는 요소 위에 덧입히는 건데요, 처음 테마를 적용해보는 분들이 많이 범하는 실수 중에 하나가 최상위 폴더를 하나 더 생성하는 겁니다. 알집이나 다른 압축 해제 프로그램으로 압축을 해제할 때 설정에 따라 최상위 폴더를 생성하고 그 안에 내용물을 풀어놓는 경우가 있는데 이걸 그대로 가져다 리소스로 올리는 거죠. 당연히 인식하지 못합니다.
 
 카카오톡 테마 파일도 마찬가지입니다. ***폴더를 압축하면서 최상위 폴더를 하나 더 만든 셈입니다.***
 
@@ -29,9 +29,7 @@ published: true
 
 1. 만들어 둔 테마 폴더를 열고 `KakaoTalk.css`와 `Images`를 선택 해줍니다.
 2. 선택한 상태에서 우클릭 또는 `Ctrl` + 클릭하여 메뉴를 열고 `2개 항목 압축`을 클릭합니다.
-
 ![](/Resources/2016-04-27/2개항목압축.png){: center-image :}
-
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
 [^3]: 다만 이 경우에는 .DS_Store 라든가 기타 불필요한 숨겨진 파일들이 함께 압축될 수 있으므로 `defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder` 등으로 숨김 파일을 표시하고 사용하는 게 바람직합니다.  
@@ -39,7 +37,7 @@ published: true
 
 ### Terminal을 이용하는 방법
 
-![](Resources/2016-04-27/navtothemefiles.png){: center-image :}
+![](/Resources/2016-04-27/navtothemefiles.png){: center-image :}
 
 1. 기본 앱인 Terminal.app을 실행하고 KakaoTalk.css가 위치한 디렉터리로 이동합니다. <!-- 저 같은 경우는 데스크탑에 downloads 폴더를 만들어두고 그 안에서 작업하는 경우가 많으므로 cd desktop/downloads 를 입력하고 return을 눌러줍니다.-->
 
