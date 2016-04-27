@@ -98,10 +98,12 @@ blockquote {
   font-size: 1em;
 }
 
-.center-image
-{
-  margin: 0 auto;
+.center-image{
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 //********************************************************
@@ -308,3 +310,4 @@ nav.shrink .navbar-toggle {
 .content{
   padding-bottom: 250px;
 }
+
