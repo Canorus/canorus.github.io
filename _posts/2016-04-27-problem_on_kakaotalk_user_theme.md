@@ -37,15 +37,11 @@ published: true
 ## Terminal을 이용하는 방법
 
 ![](/Resources/2016-04-27/navtothemefiles.png){: .center-image :}
-
-    1. 기본 앱인 Terminal.app을 실행하고 KakaoTalk.css가 위치한 디렉터리로 이동합니다.[^4]
-
+1. 기본 앱인 Terminal.app을 실행하고 KakaoTalk.css가 위치한 디렉터리로 이동합니다.[^4]  
 ![](/Resources/2016-04-27/zipcommand.png){: .center-image :}*예시. 파일이름을 `KakaoTheme`으로 한 경우*
-
-    2. `zip -X {파일이름} *` 을 입력하고 return을 눌러줍니다. ***대소문자, 띄어쓰기 모두 준수하셔야 합니다.*** -X 옵션은 .DS_Store 와 같은 부스러기 파일들을 포함하지 않고 압축하는 옵션이고, 해당 명령어는 디렉터리 내부의 파일을 모두 압축하는 명령어입니다.  
-![](/Resources/2016-04-27/final.png)
-
-    3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
+2. `zip -X {파일이름} *` 을 입력하고 return을 눌러줍니다. ***대소문자, 띄어쓰기 모두 준수하셔야 합니다.*** -X 옵션은 .DS_Store 와 같은 부스러기 파일들을 포함하지 않고 압축하는 옵션이고, 해당 명령어는 디렉터리 내부의 파일을 모두 압축하는 명령어입니다.  
+![](/Resources/2016-04-27/final.png){: .center-image :}
+3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
 [^4]: 저 같은 경우는 데스크탑에 downloads 폴더를 만들어두고 그 안에 KakaoTheme이라는 폴더를 만들어서 작업하였으므로 `cd desktop/downloads/Kakaotheme`을 입력하고 return을 눌러줍니다. 여기서는 대소문자 구별을 하지 않습니다.
 
