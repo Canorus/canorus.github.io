@@ -29,16 +29,16 @@ published: true
 
 1. 만들어 둔 테마 폴더를 열고 KakaoTalk.css와 Images를 선택 해줍니다.
 2. 선택한 상태에서 우클릭 또는 Ctrl + 클릭하여 메뉴를 열고 '2개 항목 압축'을 클릭합니다.  
-![](/Resources/2016-04-27/2개항목압축.png){: center-image :}
+![](/Resources/2016-04-27/2개항목압축.png){: .center-image :}
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
 [^3]: 다만 이 경우에는 .DS_Store 라든가 기타 불필요한 숨겨진 파일들이 함께 압축될 수 있으므로 `defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder` 등으로 숨김 파일을 표시하고 사용하는 게 바람직합니다.[BackToTheMac 포스트, 9. 터미널 명령어로 숨겨진 파일 표시하기 부분 참조](http://macnews.tistory.com/203)
 
 ## Terminal을 이용하는 방법
 
-![](/Resources/2016-04-27/navtothemefiles.png){: center-image :}
+![](/Resources/2016-04-27/navtothemefiles.png){: .center-image :}
 1. 기본 앱인 Terminal.app을 실행하고 KakaoTalk.css가 위치한 디렉터리로 이동합니다.[^4]  
-![](/Resources/2016-04-27/zipcommand.png){: center-image :}*예시. 파일이름을 `KakaoTheme`으로 한 경우*
+![](/Resources/2016-04-27/zipcommand.png){: .center-image :}*예시. 파일이름을 `KakaoTheme`으로 한 경우*
 2. `zip -X {파일이름} *` 을 입력하고 return을 눌러줍니다. ***대소문자, 띄어쓰기 모두 준수하셔야 합니다.*** -X 옵션은 .DS_Store 와 같은 부스러기 파일들을 포함하지 않고 압축하는 옵션이고, 해당 명령어는 디렉터리 내부의 파일을 모두 압축하는 명령어입니다.  
 ![](/Resources/2016-04-27/final.png)
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
@@ -50,9 +50,9 @@ published: true
 일반 사용자들에게 가장 추천할만한 방법이 아닐까 *개인적으로* 생각합니다
 
 1. CleanArchiver를 설치합니다.  
-![](/Resources/2016-04-27/cleanarchiversetup.png){: center-image :}*사진처럼 설정을 바꿔줍니다*
+![](/Resources/2016-04-27/cleanarchiversetup.png){: .center-image :}
 2. 위와 같이 CleanArchiver를 설정하고 KakaoTalk.css 와 Images 를 선택하여 CleanArchiver 창으로 던져넣습니다. 아래 사진처럼요.  
-![](/Resources/2016-04-27/dragintocleanarchiver.png){: center-image :}
+![](/Resources/2016-04-27/dragintocleanarchiver.png){: .center-image :}
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
 - - -
