@@ -7,7 +7,7 @@ published: true
 ---
 # 들어가기에 앞서
 
-저는 개발에 대해서는 쥐뿔도 모르고 깨작깨작 여기저기서 찾아 깊는 평범한 일반인입니다. 요점인즉슨 포스트에 적혀있는 게 제가 아는 전부이며 다른 걸 물어보셔도 *찾아서 나온다면 대답해드릴 수 있을지언정 그 자리에서 대답해드리기는 어렵습니다*. 물론 그 정도면 직접 찾아보셔도 금방 해답을 찾으실 수 있을 거라 장담합니다만... 
+저는 개발에 대해서는 쥐뿔도 모르고 깨작깨작 여기저기서 찾아 깊는 평범한 일반인입니다. 요점인즉슨 포스트에 적혀있는 게 제가 아는 전부이며 다른 걸 물어보셔도 *찾아서 나온다면 대답해드릴 수 있을지언정 그 자리에서 대답해드리기는 어렵습니다*. 물론 그 정도면 직접 찾아보셔도 금방 해답을 찾으실 수 있을 거라 장담합니다만... 또한 저 역시 모르는 부분이 많고 틀린 부분 혹은 미진한 부분이 있을 거이라 사료되기 때문에 해당하는 부분은 트위터로 연락주시면 매우 감사하겠습니다.
 
 - - -
 
@@ -15,7 +15,7 @@ published: true
 
 [^1]: 또는 *변형을 해서*. 당연히 이건 무지 귀찮은 게 업데이트 할 때 마다 내부 파일을 교체해주어야 했으므로... 지금 맥에서 카카오톡 아이콘을 교체해서 사용하는 것도 이 방식이기 때문에 ***매우*** 귀찮습니다.
 
-[^2]: 압축하고 적용가능한 포맷으로 변환하는 걸 편의상 컴파일이라고 부를 참입니다.
+[^2]: 정식 명칭은 아니지만 압축하고 적용가능한 포맷으로 변환하는 걸 편의상 컴파일이라고 부를 참입니다.
 
 다행이라고 해야 할 지 저만 그런 게 아니더군요. [아사모 글1](http://cafe.naver.com/appleiphone/3437410), [아사모 글2](http://cafe.naver.com/appleiphone/3453202), [맥쓰사 글](http://cafe.naver.com/inmacbook/966891). 다만 국내 맥 사용자 수가 *비교적* 많지 않은 탓인지 명쾌한 해결책을 제시하는 글이 없었어요. 그렇게 4년 동안 고민하다 오늘 점심에 한 가지를 빼먹었다는 것을 깨달았습니다. 압축 구조 문제였죠.
 
@@ -43,16 +43,17 @@ published: true
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.  
 ![](/Resources/2016-04-27/final.png){: .center-image }
 
-[^4]: 저 같은 경우는 데스크탑에 downloads 폴더를 만들어두고 그 안에 KakaoTheme이라는 폴더를 만들어서 작업하였으므로 `cd desktop/downloads/Kakaotheme`을 입력하고 return을 눌러줍니다. 여기서는 대소문자 구별을 하지 않습니다.
+[^4]: 저 같은 경우는 desktop에 downloads 폴더를 만들어두고 그 안에 KakaoTheme이라는 폴더를 만들어서 작업하였으므로 `cd desktop/downloads/Kakaotheme`을 입력하고 return을 눌러줍니다. 여기서는 대소문자 구별을 하지 않습니다.
 
 ## 서드파티 앱을 사용하는 방법
 
 일반 사용자들에게 가장 추천할만한 방법이 아닐까 *개인적으로* 생각합니다.
 
-1. CleanArchiver를 설치합니다.  
+1. CleanArchiver[^5]를 설치합니다.  
 ![](/Resources/2016-04-27/cleanarchiversetup.png){: .center-image }
 2. 위와 같이 CleanArchiver를 설정하고 KakaoTalk.css 와 Images 를 선택하여 CleanArchiver 창으로 던져넣습니다. 아래 사진처럼요.  
 ![](/Resources/2016-04-27/dragintocleanarchiver.png){: .center-image }
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
+[^5]: CleanArchiver의 근원이 상당히 복잡한 것 같은데 원 제작자는 [INAJIMA Daisuke](http://www.sopht.jp/en/cleanarchiver/)님이 제작하신 앱이었으나 저는 [trip2me](http://trip2me.tistory.com/56)님께서 개선하신 [3.1b2버전](http://trip2me.tistory.com/attachment/cfile21.uf@20080B0F4B1D1897872E7A.dmg)을 설치했습니다... 만 어째서인지 환경설정이 비활성화 되어 있군요. 
 - - -
