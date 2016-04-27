@@ -50,9 +50,9 @@ published: true
 일반 사용자들에게 가장 추천할만한 방법이 아닐까 *개인적으로* 생각합니다
 
 1. CleanArchiver를 설치합니다.  
-![](/Resources/2016-04-27/cleanarchiversetup.png)
+![](/Resources/2016-04-27/cleanarchiversetup.png){: center-image :}
 2. 위와 같이 CleanArchiver를 설정하고 KakaoTalk.css 와 Images 를 선택하여 CleanArchiver 창으로 던져넣습니다. 아래 사진처럼요.  
-![](/Resources/2016-04-27/dragintocleanarchiver.png)
+![](/Resources/2016-04-27/dragintocleanarchiver.png){: center-image :}
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
 - - -
