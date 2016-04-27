@@ -25,17 +25,17 @@ published: true
 
 문제의 원인이 파악되었으니 해결책도 나온 것과 다름없습니다. 최상위 폴더를 압축하는 것이 아닌 컨텐츠 자체를 압축하는 것입니다. 여기에는 세 가지 방법이 있습니다.
 
-### Finder를 이용하는 방법[^3]
+## Finder를 이용하는 방법[^3]
 
 1. 만들어 둔 테마 폴더를 열고 `KakaoTalk.css`와 `Images`를 선택 해줍니다.
-2. 선택한 상태에서 우클릭 또는 `Ctrl` + 클릭하여 메뉴를 열고 `2개 항목 압축`을 클릭합니다.
+2. 선택한 상태에서 우클릭 또는 `Ctrl` + 클릭하여 메뉴를 열고 `2개 항목 압축`을 클릭합니다.  
 ![](/Resources/2016-04-27/2개항목압축.png){: center-image :}
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
 [^3]: 다만 이 경우에는 .DS_Store 라든가 기타 불필요한 숨겨진 파일들이 함께 압축될 수 있으므로 `defaults write com.apple.finder AppleShowAllFiles TRUE;killall Finder` 등으로 숨김 파일을 표시하고 사용하는 게 바람직합니다.  
 [BackToTheMac 포스트 9. 터미널 명령어로 숨겨진 파일 표시하기 부분 참조](http://macnews.tistory.com/203)
 
-### Terminal을 이용하는 방법
+## Terminal을 이용하는 방법
 
 ![](/Resources/2016-04-27/navtothemefiles.png){: center-image :}
 
@@ -49,7 +49,7 @@ published: true
 
 3. 생성된 압축파일의 확장자를 .ktheme으로 바꿔줍니다.
 
-### 서드파티 앱을 사용하는 방법
+## 서드파티 앱을 사용하는 방법
 
 일반 사용자들에게 가장 추천할만한 방법이 아닐까 *개인적으로* 생각합니다
 
