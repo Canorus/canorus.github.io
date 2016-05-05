@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 최근의 Back to the Mac을 보면서
+published: true
 ---
 
 2012년에 처음 맥북을 사고 OS X의 기초적인 지식을 얻었던 블로그가 있었다. 굳이 가릴 필요도 없나. [Back to the Mac](http://macnews.tistory.com)이라는 블로그가 있다. 여기서 캡쳐하는 법을 배웠고 기본적인 단축키를 배웠고 수도 없는 앱 소개와 할인 소식을 여기서 얻었다. 맥과 OS X에 관해서라면 필자가 주저없이 권할 수 있는 몇 안 되는 블로그이다. 헌데 요즘 분위기가 이상하다.
