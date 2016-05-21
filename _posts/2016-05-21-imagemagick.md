@@ -9,7 +9,7 @@ published: true
 
 [^1]: Homebrew 외에도 MacPorts로 설치할 수 있습니다. [링크](http://www.imagemagick.org/script/binary-releases.php)
 
-## Homebrew를 설치해줍니다.
+## Homebrew를 설치합니다
 
 우선 [OS X 10.11 엘 캐피탄에 '홈브류(Homebrew)'를 설치하는 방법](http://macnews.tistory.com/3728)을 참고하여 Homebrew를 설치해줍니다. 이미 설치되어 있으시다면 넘어가셔도 좋습니다. 이 기회에 홈브류와 기타 패키지를 업데이트 해주셔도 좋겠습니다. 터미널에서 `brew update` 와 `brew upgrade` 를 입력하고 return을 눌러주시면 됩니다.
 
