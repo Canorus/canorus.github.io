@@ -36,8 +36,7 @@ published: true
 - 대소문자 구별하지 않습니다. 하지만 타이핑의 귀찮음과 오타를 피하기 위해 기존 사진 명은 짧게 하시는 걸 권장합니다.
 - 기계적으로 이어붙이는 것이기 때문에 스크린샷을 찍을 때에는 배경의 그림자를 빼고 찍는 기술이 유효합니다. `(cmd + shift + 3/4) + space` 를 사용하시는 경우에 `option`을 누르고 클릭하면 배경의 그림자를 제거한 스크린샷을 찍을 수 있습니다.
 
-![appendplus](/Resources/2016-05-21/appendplus.png)*`+append`*
-![appendminus](/Resources/2016-05-21/appendminus.png)*`-append`*
+![appendplus](/Resources/2016-05-21/appendplus.png)*`+append`*![appendminus](/Resources/2016-05-21/appendminus.png)*`-append`*
 
 - - -
 
