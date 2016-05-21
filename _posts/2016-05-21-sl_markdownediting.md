@@ -3,7 +3,6 @@ layout: post
 title: Sublime Text 3 에서 Markdown Editing
 published: true
 ---
-
 Markdown 문법이 익숙해지기까지는 전용 편집기, 특히 프리뷰가 있는 편집기를 위주로 사용했는데 어느 정도 익숙해지고 난 후에는 Sublime에 [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing) 플러그인을 설치해서 사용하였다.[^1] 지금은 잘 안 쓰지만 여전히 가볍고 대충(?) 적을 일이 있을 때에는 급한대로 Sublime Text를 이용한다.
 
 [^1]: 과거형인 이유는 지금은 안 쓰기 때문. Sublime Text에서 한글입력은 생각보다 [짜증나는 버그](https://forum.sublimetext.com/t/cursor-pointer-error/13616)가 있기 때문에... 누군가 2014년에 이미 리포트했지만 개발자는 고쳐줄 생각이 없는 것 같다. 이 글을 읽으시면 가서 건의 한 마디씩 부탁드립니다... (쥬륵
