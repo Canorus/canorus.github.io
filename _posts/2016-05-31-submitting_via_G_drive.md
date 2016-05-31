@@ -16,7 +16,8 @@ published: true
 
 *server.gs*
 
-`function doGet(e) {
+```JavaScript
+function doGet(e) {
   return HtmlService.createHtmlOutputFromFile('form.html');
 }
 
@@ -58,11 +59,13 @@ function uploadFiles(form) {
     return error.toString();
   }
   
-}`
+}
+```
 
 *form.html*
 
-`<style>
+```html
+<style>
 form {
 margin: 0 auto;
 width: 150px;
@@ -90,7 +93,7 @@ width: 150px;
 <style>
  input { display:block; margin: 20px; }
 </style>
-`
+```
 
 주석 좀 달아놓을 걸 그랬네요... 
 
