@@ -2,6 +2,7 @@
 layout: post
 title: 구글 드라이브로 파일 제출받기
 published: true
+permalink: 구글-드라이브로-파일-제출받기
 ---
 파일이 제출되면, 새로운 폴더를 생성합니다
 
