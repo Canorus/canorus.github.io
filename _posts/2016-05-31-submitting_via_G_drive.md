@@ -16,7 +16,7 @@ published: true
 
 *server.gs*
 
-```JavaScript
+```javascript
 function doGet(e) {
   return HtmlService.createHtmlOutputFromFile('form.html');
 }
