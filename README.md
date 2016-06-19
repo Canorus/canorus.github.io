@@ -1,49 +1,89 @@
-Jekyll Clean Dark
-============
+# BlackDoc
 
-This theme was created on top of Jekyll Clean theme by Scotte, you can view the originnal version in action [on his blog](https://scotte.github.io).
+BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
 
-* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
-* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
-* See it [in action on my own blog](http://pavelmakhov.com).
+![BlackDoc screenshot](https://raw.githubusercontent.com/karloespiritu/blackdoc/master/public/images/blackdoc-screenshot.jpg)
 
-This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
-sidebar.
+## Contents
 
-Optionally you can use:
+- [Usage](#usage)
+- [Options](#options)
+  - [Sidebar menu](#sidebar-menu)
+  - [Scrolling sidebar content](#scrolling-sidebar-content)
+  - [Themes](#themes)
+  - [Reverse layout](#reverse-layout)
+- [Development](#development)
+- [Author](#author)
+- [License](#license)
+- [Thanks](#thanks)
 
- - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
- - [Yandex Metrika](http://metrica.yandex.com);
- - Blog tags.
 
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social acounts. It uses font-awesome, so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
+## Usage
 
-Installation
-==
+BlackDoc is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
-If you dont't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
 
-After you will have to set up your `_config.yml`
+## Options
 
-License
-=======
+BlackDoc includes some customizable options, typically applied via classes on the `<body>` element.
 
-The content of this theme is distributed and licensed under a
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+### Sidebar menu
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
+Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
 
-This theme includes the following files which are the properties of their
-respective owners:
+```
+---
+layout: page
+title: About
+---
+```
 
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+
+
+### Scrolling sidebar content
+
+By default, BlackDoc includes a scrolling sidebar that will display your markdown files in alphabetical order.
+
+### Themes
+
+BlackDoc ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+
+To use a theme, add anyone of the available theme classes to the `<body>` element in the `default.html` layout, like so:
+
+```html
+<body class="theme-base-08">
+  ...
+</body>
+```
+
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/karloespiritu/blackdoc/blob/master/public/css/blackdoc.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+
+### Reverse layout
+
+![BlackDoc reverse screenshot](https://raw.githubusercontent.com/karloespiritu/BlackDoc/master/public/images/reverse-screenshot.png)
+
+BlackDoc's page orientation can be reversed with a single class.
+
+```html
+<body class="layout-reverse">
+  ...
+</body>
+```
+
+## Author
+
+**Karlo Espiritu**
+- <https://github.com/karloespiritu>
+- <https://twitter.com/karloespiritu>
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
+
+\m/
+
+## Thanks
+
+Thanks to [@mdo](https://twitter.com/mdo) for creating the awesome [Poole](http://getpoole.com) project.

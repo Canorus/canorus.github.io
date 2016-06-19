@@ -1,9 +1,18 @@
 ---
-layout: page 
+layout: page
 title: About
-
 ---
 
-<img src="https://twitter.com/psCanor/profile_image?size=original" width="30%"><div style="text-align:left">Canor<br>born 1992, native Korean, penspinner[non-active], cellist, soccer, Chinese major, English speaker, Apple <strike>fanboy</strike> user[iPhone 5s, iPad Air 2, Macbook Air 2012]</div>
+<p class="message">
+  Hi there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-이것저것 잡다하게 적는 블로그입니다. 주로 일상을 적습니다.
+## About BlackDoc Theme
+
+Some relevant information about this project:
+
+* Built for [Jekyll](http://jekyllrb.com)
+* Theme based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme
+* Ideal for sites requiring master-detail layout such as documentation, cheatsheets, lyrics, notes, etc.
+* Need a beautiful color scheme for black background? Then you will love BlackDoc theme.
+
