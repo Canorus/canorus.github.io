@@ -8,7 +8,7 @@ title: Archive
             {% unless post.menu == 'private' %}
             {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
             {% if currentyear != year %}
-                {% unless forloop.first %}</ul>{% endunless %}
+                {% unless forloop.first %}{% endunless %}
                     <h5>{{ currentyear }}</h5>
                     <ul class="posts">
                     {% capture year %}{{currentyear}}{% endcapture %}
@@ -16,5 +16,3 @@ title: Archive
             <li><a href="{{post.url | prepend: site.baseurl | prepend: site.url}}">{{post.title}}}</a></li>
             {% endunless %}
         {% endfor %}
-    </div>
-</div>
