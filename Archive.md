@@ -13,6 +13,6 @@ title: Archive
                     <ul class="posts">
                     {% capture year %}{{currentyear}}{% endcapture %}
                 {% endif %}
-            <li><a href="{{post.url | prepend: site.baseurl | prepend: site.url}}">{{post.title}}}</a></li>
+            <li><a href="{{post.url | prepend: site.baseurl | prepend: site.url}}">{{post.title}}</a></li>
             {% endunless %}
         {% endfor %}
