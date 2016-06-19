@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-# 반갑습니다. Welcom. 欢迎欢迎。
+# 반갑습니다. Welcome. 欢迎欢迎。
 
 <p class="message">
     Canor의 블로그에 오신 것을 환영합니다.<br/>
