@@ -307,6 +307,7 @@ a.sidebar-nav-item:focus {
 }
 .post-tags{
   text-align: right;
+  text-decoration: none;
 }
 
 
