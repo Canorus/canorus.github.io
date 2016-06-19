@@ -1,6 +1,10 @@
 ---
 layout: post
 title: LSTargetBlue Cydget
+tags:
+- Cydget
+- iPhone
+- Theme
 ---
 
 예전에 어디선가 받았던 Cydget 테마가 있었다. 이름은 LSTargetRed로 되어 있었는데 앞에 `<head>` 부분만 어찌어찌 수정하고 Info.plist 파일을 만들어서 Cydget 용으로 잘 쓰고 있었다.
