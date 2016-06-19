@@ -2,6 +2,10 @@
 layout: page
 title: Archive
 ---
+<style>
+li{
+    list-style-type:none;
+}
 <div class="sidebar-archive">
     <div class="post">
         {% for post in site.posts %}
