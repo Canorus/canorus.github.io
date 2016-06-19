@@ -51,7 +51,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   font-synthesis: weight style;
-  text-decoration:none;
 }
 
 a {
@@ -280,6 +279,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #2EACFF;
+  text-decoration: none;
 }
 
 /*
