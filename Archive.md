@@ -6,6 +6,7 @@ title: Archive
 li{
     list-style-type:none;
 }
+</style>
 <div class="sidebar-archive">
     <div class="post">
         {% for post in site.posts %}
