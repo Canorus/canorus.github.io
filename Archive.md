@@ -4,12 +4,11 @@ title: Archive
 ---
 <div class="sidebar-archive">
     <div class="post">
-        <h1>Blog Archive</h1>
         {% for post in site.posts %}
             {% unless post.menu == 'private' %}
             {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
             {% if currentyear != year %}
-                {% unless forloop.first %}</ul>{% endunless %}
+                {% unless forloop.first %}{% endunless %}
                     <h5>{{ currentyear }}</h5>
                     <ul class="posts">
                     {% capture year %}{{currentyear}}{% endcapture %}
