@@ -305,7 +305,7 @@ a.sidebar-nav-item:focus {
     margin-right: 22rem;
   }
 }
-.post-tags{
+.post-tags a{
   text-align: right;
   text-decoration: none;
 }
