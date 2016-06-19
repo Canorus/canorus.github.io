@@ -12,7 +12,7 @@ title: 반갑습니다. Welcome. 欢迎欢迎。初めまして。
 ## About
 
 <div class="message">
-    <div style="margin:10px">
+    <div style="margin-right:10px">
         <img src="https://twitter.com/psCanor/profile_image?size=original" width="30%" align="left" style="margin: 5px">
     </div>
     <div class="message">
