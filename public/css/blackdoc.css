@@ -305,7 +305,9 @@ a.sidebar-nav-item:focus {
     margin-right: 22rem;
   }
 }
-
+.post-tags{
+  text-align: right;
+}
 
 
 /*
