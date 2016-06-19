@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 반갑습니다. Welcome. 欢迎欢迎。初めまして。
+title: 반갑습니다. Welcome. 欢迎欢迎。
 ---
 
 <p class="message">
