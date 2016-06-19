@@ -195,12 +195,12 @@ tbody tr:nth-child(odd) th {
 
 /* Sidebar links */
 .sidebar a {
-  color: #caad00;
+  color: #2EACFF;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #caad00;
+  color: #2EACFF;
   margin-top: 0;
   font-family: 'Noto Sans', 'Noto Serif', sans-serif;
   font-size: 2.25rem;
