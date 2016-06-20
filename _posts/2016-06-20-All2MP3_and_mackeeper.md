@@ -16,3 +16,7 @@ All2MP3는 OSX에서 각종 미디어 파일을 MP3로 변환하는데에 특화
 ![](/Resources/2016-06-20/mackeeper.png)
 
 빌어먹는 놈이 나타났다.
+
+설치과정을 다시 살펴보니 설치 과정 중에 스리슬쩍 MacKeeper를 끼워넣는다. Accept가 아닌 Skip을 누르면 MacKeeper 없이도 설치가 되긴 한다마는 짜증난다.
+
+![](/Resources/2016-06-20/injecting_mackeeper.png)
