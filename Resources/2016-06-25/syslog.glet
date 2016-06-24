@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DropShadow</key>
+	<false/>
+	<key>FilePath</key>
+	<string>/private/var/log/system.log</string>
+	<key>FontFamily</key>
+	<string>BMJUAOTF</string>
+	<key>FontSize</key>
+	<real>12</real>
+	<key>ForceCR</key>
+	<true/>
+	<key>GeekletFrame</key>
+	<string>{{25, 617}, {631, 198}}</string>
+	<key>HasShadow</key>
+	<false/>
+	<key>Identifier</key>
+	<string>org.tynsoe.geeklet.file</string>
+	<key>Name</key>
+	<string>log</string>
+	<key>RightToLeft</key>
+	<false/>
+	<key>TextAlignment</key>
+	<integer>0</integer>
+	<key>TextColor</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
+	ZmZmg4GAAD6DrKsrP4P//n4/AYY=
+	</data>
+	<key>TextStrikethrough</key>
+	<integer>0</integer>
+	<key>TextUnderline</key>
+	<integer>0</integer>
+</dict>
+</plist>
