@@ -284,6 +284,7 @@ a.sidebar-nav-item:focus {
 /* center image */
 .center-image{
   display: block
+  text-align: center;
 }
 
 /*
