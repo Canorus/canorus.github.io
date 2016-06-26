@@ -283,11 +283,8 @@ a.sidebar-nav-item:focus {
 }
 
 .center-image{
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-  margin-left: 0;
-  margin-right: 0;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 /*
