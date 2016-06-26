@@ -2,6 +2,7 @@
 layout: post
 title: All2MP3 제작자로부터 메일을 받았다
 ---
+# I got a mail from All2MP3 dev
 
 ![](/Resources/2016-06-25/fromall2mp3dev.png)
 
