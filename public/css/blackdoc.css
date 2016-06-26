@@ -282,6 +282,10 @@ a.sidebar-nav-item:focus {
   text-decoration: none;
 }
 
+.center-image{
+  align: center;
+}
+
 /*
  * Reverse layout
  *
