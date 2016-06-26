@@ -281,9 +281,9 @@ a.sidebar-nav-item:focus {
   color: #2EACFF;
   text-decoration: none;
 }
-
+/* center image */
 .center-image{
-  vertical-align: middle;
+  display: block
 }
 
 /*
