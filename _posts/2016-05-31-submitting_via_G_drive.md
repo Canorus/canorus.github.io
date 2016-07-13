@@ -114,6 +114,30 @@ width: 150px;
 
 나타난 URL을 가져다가 주고 해당 URL로 업로드하게 시킵니다.
 
+### 2016-07-13 추가
+
+제출된 파일의 리스트를 작성하는 코드를 추가합니다.
+
+```javascript
+function doGet(e) {
+  var template = '<table style ="width: 100%"><tr><th>name</th><th>Date</th><th>Description</th></tr>APPS_SCRIPT_CONTENT</table>';
+  var dir = 'SpinFest2016 KPDS Clips';
+  var folder = DriveApp.getFoldersByName(dir).next();
+  var contents = folder.getFiles();
+  var file, name, date, desc, list = []; 
+  while (contents.hasNext()) {
+    file = contents.next();
+    name = file.getName();
+    date = file.getDateCreated();
+    desc = file.getDescription();
+    list.push('<tr><td>' + name + '</td><td>' + date + '</td><td>' + desc + '</td></tr>');
+  }
+  var output = HtmlService.createHtmlOutput(template.replace('APPS_SCRIPT_CONTENT', list.join('')));
+  return output.setTitle('Directory List').setSandboxMode(HtmlService.SandboxMode.IFRAME);
+}
+```
+
 - - -
 
-via [How to Receive Files in your Google Drive from Anyone](http://www.labnol.org/internet/receive-files-in-google-drive/19697/)
+- via [How to Receive Files in your Google Drive from Anyone](http://www.labnol.org/internet/receive-files-in-google-drive/19697/)
+- via [StackOverflow](http://stackoverflow.com/questions/35978934/list-google-drive-files-from-a-given-folder-on-a-webpage)
