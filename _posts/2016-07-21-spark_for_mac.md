@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  
+title:   
+published: true
 ---
 
-<blockquote class="twitter-tweet tw-align-center" data-lang="ko"><p lang="en" dir="ltr">The Beta version of me for your Mac will be available in 15 days (roughly). I&#39;ll post details on how to get the beta soon. 🖥💙</p>&mdash; SparkMail (@SparkMailApp) <a href="https://twitter.com/SparkMailApp/status/755795745601617921">2016년 7월 20일</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet tw-align-center" data-lang="ko"><p lang="en" dir="ltr">The Beta version of me for your Mac will be available in 15 days (roughly). I'll post details on how to get the beta soon. 🖥💙</p>— SparkMail (@SparkMailApp) <a href="https://twitter.com/SparkMailApp/status/755795745601617921">2016년 7월 20일</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 CloudMagic Email과 가까운 시일 내에 큰 격돌이 예상됩니다. 현재까지는 CloudMagic Email가 근소한 차이로 리드.
