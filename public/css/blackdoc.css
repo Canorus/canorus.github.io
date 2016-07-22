@@ -282,9 +282,11 @@ a.sidebar-nav-item:focus {
   text-decoration: none;
 }
 /* center image */
-.center-image{
-  display: block
-  text-align: center;
+.center-image {
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*
@@ -316,7 +318,6 @@ a.sidebar-nav-item:focus {
   text-align: right;
   text-decoration: none;
 }
-
 
 
 /*
