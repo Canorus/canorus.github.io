@@ -3,7 +3,7 @@ layout: post
 title: 동영상의 소유자가 아니므로 동영상을 관리할 수 없습니다.
 ---
 
-![](/Resources/20160803/cannotmanagethevideo.png){: .center-image }
+![](/Resources/20160802/cannotmanagethevideo.png){: .center-image }
 
 
 
