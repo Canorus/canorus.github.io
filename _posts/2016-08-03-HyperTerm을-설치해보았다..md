@@ -3,6 +3,8 @@ layout: post
 title: HyperTerm을 설치해보았다.
 ---
 
+
+
 [heeyeun | HyperTerm 설치하기](http://yeun.github.io/2016/07/03/install-hyperterm.html)를 읽고 [HyperTerm](https://hyperterm.org)을 설치해 보았다. 사실 기본 터미널도 잘 쓰고 있긴 하지마는.
 
 익스텐션을 사용하려면 기본적으로 [npm](https://www.npmjs.com)[^npm]이 필요하다길래 먼저 [Mac(OSX)에 nodejs를 설치하는 최고의 방법 – hochulshin.com](http://hochulshin.com/node-install-osx/)을 참고해서 npm을 설치하고 시작했다. 결론적으로 익스텐션 설치는 안(못) 했다.
