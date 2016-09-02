@@ -3,6 +3,12 @@ layout: post
 title: Sublime Text - Material Theme
 ---
 
+### 2016-09-02 추가
+
+어째서인지 Dark Theme으로 해놓고 탭을 다른 창에 붙여넣으면 Sublime Text 자체가 꺼져버리는 현상이 있다. 일반 Material Theme에서는 해당사항이 없는데 좀 더 지켜보고 리포트 하게 될 것 같다.
+
+------
+
 [얼마 전에 HyperTerm을 설치했다.](http://canorus.github.io/2016/08/03/HyperTerm을-설치해보았다) 이런 저런 이유로 하루만에 기본 터미널로 돌아오긴 했지만. 기본 터미널도 나쁘지 않아.
 
 아무튼 HyperTerm 설치하면서 [Sublime Text Material Theme](http://equinsuocha.io/material-theme/)도 적용해보았다. Sublime Text에 마음에 드는 테마가 없어서 대충 아무거나 어두운 걸로 걸어놓았는데 Material Theme 적용하면서 꽤 마음에 든다. 깔끔하고, 검은 배경에, 알록달록한 글씨들.
