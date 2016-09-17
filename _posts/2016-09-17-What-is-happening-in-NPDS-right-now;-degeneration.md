@@ -38,3 +38,6 @@ Also I ask you not to purchase any items from PenspinStore. I recommend using [P
 ## Sum up
 
 NPDS, previous Korean Penspinning community, has been so degenerated that it can no longer function as penspinning community and should not be considered as *penspinning* community, anymore. Thank you for reading.
+
+------
+
