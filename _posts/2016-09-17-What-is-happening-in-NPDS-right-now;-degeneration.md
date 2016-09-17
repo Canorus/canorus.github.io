@@ -19,7 +19,7 @@ Since then, there's been conflict between moderator and members of NPDS, and tod
 
 [^1]: I've saved as PDF format, for archive purpose. [download here](http://d.pr/f/6c1a+).
 
-Moreover, this Sub-mananger mentioned "if you don't like the church or temple you're attending, just leave"[^2]. *How thoughtful of him comparing penspinning with religion. Maybe he's too clever to understand what __community__ is, or maybe he's confusing __community__ with __communism__, isn't he?*
+Moreover, previous Sub-mananger Gcode mentioned "if you don't like the church or temple you're attending, just leave"[^2]. *How thoughtful of him comparing penspinning with religion. Maybe he's too clever to understand what __community__ is, or maybe he's confusing __community__ with __communism__, isn't he?*
 
 [^2]: [download pdf here](http://d.pr/f/1bDqt+)
 
