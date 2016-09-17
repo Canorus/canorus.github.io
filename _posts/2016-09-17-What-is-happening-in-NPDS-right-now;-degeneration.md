@@ -11,7 +11,7 @@ NPDS is a *community* for Korean Penspinners. It stadns for Naver PenDolSa.
 
 ## What is going on?
 
-In NPDS, there are two top moderators. We called them Cafe Manager and Sub-Manager. Mr.LSC is in charge of Cafe Manager and Gcode was Sub-Manager. Currently Kipple is in charge of the Sub-Manager.
+In NPDS, there are two top moderators. We called them Cafe Manager and Sub-Manager. Mr.LSC is in charge of Cafe Manager and Gcode **was** Sub-Manager. Currently Kipple is in charge of the Sub-Manager and he has nothing to do with this serial of incidents.
 
 A few months ago, the Manager, Mr.LSC, posted an advertisement about a toasted-sandwich store run by a friend of his. The reason why it caused such controversy was because it was strictly stated that anyone posting something that can be regarded as advertisement will be expelled permanently, *even the moderator*. When asked to explain his behaviour and apologize, however, he kicked members out abusing his position as Moderator.
 
