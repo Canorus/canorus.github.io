@@ -9,6 +9,6 @@ TechNeedle의 뉴스레터를 구독한지 대충 6개월이 넘어가는 것 �
 
 > 지금의 촛불이, 60년대부터 내려온 ‘정치 권력이 선택하여 기업을 밀어주고 망하게 할 수 있는 권력 구조’를 쇄신할 수 있는 기회가 되었으면 좋겠다.
 
-<a style="text-align: right" href="http://techneedle.com/archives/29162">페이스북 COO 셰릴 샌드버그, 각종 재단에 1억달러 기부 | techNeedle</a>
+<p style="text-align: right"><a  href="http://techneedle.com/archives/29162">페이스북 COO 셰릴 샌드버그, 각종 재단에 1억달러 기부 | techNeedle</a></p>
 
 내 정치적 입장과 일치하는가를 떠나서(그리고 실제로 나도 저렇게 생각하지만) 필자가 자신의 바람을 가치중립적인 기사에까지 싣는 것이 과연 바람직한 건가에 대해서는 의문이다. 싫으면 안 보면 그만이긴 하겠다마는… 
