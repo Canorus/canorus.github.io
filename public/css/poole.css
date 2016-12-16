@@ -35,7 +35,7 @@
  * Update the foundational and global aspects of the page.
  */
 
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -50,7 +50,7 @@ body {
 }
 
 html {
-  font-family: 'Noto Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
