@@ -33,15 +33,15 @@ ______ _            _   ______
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);*/
 @font-face{
   font-family: 'Spoqa Han Sans';
-  src: url(SpoqaHanSans-Regular_subset.woff);
+  src: url(fonts/SpoqaHanSans-Regular_subset.woff);
 }
 @font-face{
   font-family: 'Spoqa Han Sans Bold';
-  src: url(SpoqaHanSans-Bold_subset.woff);
+  src: url(fonts/SpoqaHanSans-Bold_subset.woff);
 }
 @font-face{
   font-family: 'Spoqa Han Sans Thin';
-  src: url(SpoqaHanSans-Thin_subset.woff);
+  src: url(fonts/SpoqaHanSans-Thin_subset.woff);
 }
 
 html {
