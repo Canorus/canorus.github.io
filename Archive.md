@@ -40,7 +40,7 @@ li{
 <div class="grid" id="searchBar">
     <div>
         <div id="search">
-            <form role="search" method="get" action="{{ site.baseurl }}//search/">
+            <form role="search" method="get" action="{{site.baseurl}}/search/">
                 <input id="searchString" name="searchString"
                     placeholder=" " type="text">
                 <input id="searchButton" name="googleSearchName" type="button" value="Search">
