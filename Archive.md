@@ -17,7 +17,10 @@ li{
                     <h5>{{ currentyear }}</h5>
                     <ul class="posts">
                     {% capture year %}{{currentyear}}{% endcapture %}
+                    </ul>
                 {% endif %}
             <li><a href="{{post.url | prepend: site.baseurl | prepend: site.url}}">{{post.title}}</a><span style="font-size:0.5em">{{ post.date | date_to_string }}</span></li>
             {% endunless %}
         {% endfor %}
+    </div>
+</div>
