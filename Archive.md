@@ -20,7 +20,7 @@ li{
             margin-right: 0;
         }
         #searchButton {
-            paddign: 0.3em 0.6em;
+            padding: 0.3em 0.6em;
             background-color: #0B5485;
             border: 1px solid #f6f5ea;
             margin-left: 0;
