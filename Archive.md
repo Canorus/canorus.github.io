@@ -6,36 +6,6 @@ title: Archive
 li{
     list-style-type:none;
 }
-#searchBar {
-    font-size: 80%;
-    padding: 0.43em 0 0.57em;
-    #search {
-        float: right;
-        #searchString {
-            width: 283px;
-            border: none;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-            padding: 0.3em 0.6em;
-            background-color: #f6f5ea;
-            margin-right: 0;
-        }
-        #searchButton {
-            padding: 0.3em 0.6em;
-            background-color: #0B5485;
-            border: 1px solid #f6f5ea;
-            margin-left: 0;
-            color: $white;
-            -webkit-appearance: none;
-            border-radius: 0;
-        }
-        #archives {
-            line-height: 2;
-            float: left;
-            color: $black;
-            text-wrap: avoid;
-        }
-    }
-}
 </style>
 <div class="sidebar-archive">
     <div class="post">
