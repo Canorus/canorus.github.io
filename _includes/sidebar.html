@@ -69,12 +69,12 @@
       <div class="grid" id="searchBar">
         <div>
             <div id="search">
-                <form role="search" method="get" action="function()">
+                <form role="search" method="get" action="{{ site.baseurl }}/search">
                     <input id="searchString" name="searchString"
                         placeholder="Input text" type="text">
                     <input id="searchButton" name="googleSearchName" type="button" value="Search">
                     <script>
-                    (function() {
+                    function() {
                         var cx = '002774646318515022626:8r3kffjur0m';
                         var gcse = document.createElement('script');
                         gcse.type = 'text/javascript';
@@ -82,7 +82,8 @@
                         gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
                         var s = document.getElementsByTagName('script')[0];
                         s.parentNode.insertBefore(gcse, s);
-                    })();
+                    }
+                    function();
                     </script>
                     <!--<gcse:search queryParameterName="searchString"></gcse:search>-->
                 </form>
