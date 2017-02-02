@@ -303,6 +303,9 @@ a.sidebar-nav-item:focus {
   margin-left: auto;
   margin-right: auto;
 }
+.via{
+	text-align: right;
+}
 
 /*
  * Reverse layout
