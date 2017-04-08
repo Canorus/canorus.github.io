@@ -21,7 +21,7 @@ Airport Utility는 Airport Express의 설정을 관리하기 위한 툴이다. �
 
 ![](http://d.pr/i/Nxk5+){:.center-image}
 
-Airport Utility 상단에서 `파일 > 기타 구성`으로 접근하면 라우터의 ip 주소를 지정해서 접속할 수 있다.
+Airport Utility 상단에서 `파일 > 기타 구성`으로 접근하면 라우터의 ip 주소를 지정해서 접속할 수 있다. 라우터 ip 찾는 법은 [이 쪽](http://canorus.github.io//2017/04/08/라우터-주소-찾기-terminal/)을 참고.
 
 - - -
 
