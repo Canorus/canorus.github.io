@@ -2,6 +2,8 @@
 layout: "post"
 title: "Airport Utility가 Airport Express를 감지하지 못하는 문제"
 date: "2017-04-08 21:12"
+tags: 
+ - troubleshooting
 ---
 
 ![](http://d.pr/i/2Vln+){:.center-image}
