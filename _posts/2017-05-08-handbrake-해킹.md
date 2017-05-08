@@ -11,6 +11,8 @@ Handbrake가 트로이 바이러스에 감염되었을 가능성이 있다고 [9
 
 ### 감염 여부 확인
 
+![](http://d.pr/i/vBPXq+){:.center-image}
+
 1\. 터미널을 열고 다운로드 받은 파일 위치를 확인한다. 예시 사진의 경우 홈 폴더`~/`에 위치했다. 다운로드 받은 파일 이름은 `Handbrake-1.0.7.dmg`이다.
 2\. `shasum handbrake-1.0.7.dmg`를 입력하여 shasum 값을 확인한다. 파일 위치에 따라 뒤의 명령어는 달라진다.(예를 들어 다운로드 폴더 `~/downloads`에 있다면 `shasum downloads/handbrake-1.0.7.dmg`)
 3\. sha256 값을 확인하고 싶다면 `shasum -a 256 handbrake-1.0.7.dmg`를 입력하면 된다.
