@@ -4,7 +4,7 @@ title: "RansomWhere?, 맥에서 랜섬웨어에 대비하기"
 date: "2017-05-29 17:11"
 ---
 
-<p style="text-align:center"><img width="50%" src="https://objective-see.com/images/RW/alert.png" /></p>
+<img width="50%" src="https://objective-see.com/images/RW/alert.png" />
 
 image from [Objective-See](https://objective-see.com/products/ransomwhere.html)
 
