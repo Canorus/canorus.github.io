@@ -4,9 +4,9 @@ title: "RansomWhere?, 맥에서 랜섬웨어에 대비하기"
 date: "2017-05-29 17:11"
 ---
 
-![](https://objective-see.com/images/RW/alert.png){:.center-image}
+<img width="50%" src="https://objective-see.com/images/RW/alert.png" style="text-align:center"></img>
 
-
+image from [Objective-See](https://objective-see.com/products/ransomwhere.html)
 
 요즘 WannaCry로 윈도우 사용자들은 시끌시끌하다는 모양입니다. 조만간 Win10까지 타겟으로 하는 랜섬웨어를 배포하겠다고 하니 걱정이 이만저만이 아닐 것 같습니다.
 
