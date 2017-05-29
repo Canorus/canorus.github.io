@@ -18,4 +18,4 @@ date: "2017-05-29 17:11"
 
 - - -
 
-개발자 후원 페이지는[이 쪽](https://www.patreon.com/objective_see)이라고 합니다.
+p.s. 개발자 후원 페이지는 [이 쪽](https://www.patreon.com/objective_see)이라고 합니다.
