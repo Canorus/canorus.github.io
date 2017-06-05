@@ -303,8 +303,11 @@ a.sidebar-nav-item:focus {
   margin-left: auto;
   margin-right: auto;
 }
+.small{
+	width="50%";
+}
 p.via{
-	text-align: right;
+	align: right;
 }
 
 /*
