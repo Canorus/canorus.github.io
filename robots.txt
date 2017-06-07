@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://canorus.github.io/sitemap.xml
