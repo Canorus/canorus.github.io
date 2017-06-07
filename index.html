@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in index.posts %}
     {%unless post.menu == 'private'%}
     <div class="post">
       <h1 class="post-title">
@@ -14,7 +14,7 @@ title: Home
       </h1>
 
       <span class="post-date">{{ post.date | date_to_string }}</span>{% include post-tags.html %}
-      
+
 
       {{ post.content }}
       <hr>
