@@ -7,15 +7,15 @@ permalink:        pretty
 # Setup
 title:            Fabulam Canor
 tagline:          story of Canor
-description:      
+description:
 url:              http://canorus.github.io
-baseurl:          /
+baseurl:          http://canorus.github.io/
 
 author:
   name:           'Canor Eom'
   url:            https://twitter.com/psCanor
 
-paginate:         5
+paginate:         10
 
 # Custom vars
 version:          1.0.0
