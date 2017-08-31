@@ -31,6 +31,12 @@ ______ _            _   ______
 
 /*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);*/
+@import
+        "base",
+        "bigfoot-number",
+        "layout",
+        "syntax-highlighting"
+;
 @font-face{
   font-family: 'Spoqa Han Sans';
   src: url(fonts/SpoqaHanSans-Regular_subset.woff);
@@ -444,4 +450,3 @@ p.via{
 ::-webkit-scrollbar-thumb:hover {
   background:#7d7d7d;
 }
-
