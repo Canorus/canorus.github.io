@@ -2,7 +2,7 @@
 layout: "post"
 title: "커맨드라인으로 유투브 내려받기 youtube-dl"
 date: "2017-09-25 21:43"
-tags:
+tags: 
  - study
 ---
 
@@ -50,7 +50,7 @@ youtube-dl [각종 옵션 플래그] [링크]
 
 ## 설정
 
-별도의 사전 설정을 할 수 있다.
+별도의 설정을 할 수 있다.
 
 시스템 광역 설정 파일은 `/etc/youtube-dl.conf` 파일에 저장되고 사용자 별 설정은 `~/.config/youtube-dl/config`에 저장된다고 하는데, *처음에는 파일이 없었다*.
 
