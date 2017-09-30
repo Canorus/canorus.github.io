@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "how do I shoot videos of combo on macOS"
+title: "Shooting penspinning video on mac in 30fps "
 date: "2017-09-30 11:33"
 tags:
  - penspinning
