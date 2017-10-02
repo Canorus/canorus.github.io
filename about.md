@@ -17,6 +17,6 @@ title: About
     <div class="message">
         아이폰과 맥을 사용하는 중어중문학 전공 대학생입니다. 남들이 찾지 않는 기묘한 것을 찾는 것을 좋아합니다.<br/>
         I'm a university student majoring Chinese literature, using iPhone, iPad and Mac. Like finding something odd that no one seeks.<br/>
-        我是在韩国专业中文的大学生，以iPhone、iPad和Mac为主机，喜欢别的人不一般找到的东西。
+        我是韩国中文系的大学生，以iPhone、iPad和Mac为主机，喜欢别的人不一般找到的东西。
     </div>
 </div>
