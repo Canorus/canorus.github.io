@@ -8,7 +8,7 @@ tags:
  - Applescript
 ---
 
-특정 시간에 iTunes를 이용, 거실에 있는 Airport Express의 AirPlay 기능을 통해서 음악을 송출하게끔 설정을 해놓았다.
+특정 시간에 iTunes를 이용, 거실에 있는 Airport Express의 AirPlay 기능을 통해서 음악을 송출하게끔 설정을 [해놓았었다](http://canor.cf/2017/10/09/applescript로-iTunes에서-음악-재생하기/).
 
 문제는 그 특정 시간에 대부분 내가 집에 없다는 점.
 
