@@ -15,9 +15,11 @@ title: HyperTerm을 설치해보았다.
 
 Homebrew가 설치되어 있다면 아래처럼 명령어
 
-`brew cask update
+```shell
+brew cask update
 
-brew cask install hyperterm`
+brew cask install hyperterm
+```
 
 을 입력해서 설치할 수 있다.
 
@@ -65,7 +67,7 @@ brew cask install hyperterm`
 
 via
 
-- [heeyeun | HyperTerm 설치하기](http://yeun.github.io/2016/07/03/install-hyperterm.html)
+- [heeyeun \| HyperTerm 설치하기](http://yeun.github.io/2016/07/03/install-hyperterm.html)
 - [Mac(OSX)에 nodejs를 설치하는 최고의 방법 – hochulshin.com](http://hochulshin.com/node-install-osx/)
 - [npm](https://www.npmjs.com)
 - [HyperTerm](https://hyperterm.org)
