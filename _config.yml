@@ -16,6 +16,8 @@ author:
 
 paginate:         10
 
+plugins:
+  - jekyll-feed
 # Custom vars
 version:          1.0.0
 
