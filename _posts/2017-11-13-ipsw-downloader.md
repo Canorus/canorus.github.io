@@ -3,7 +3,7 @@ layout: post
 title: ipsw downloader
 ---
 
-![just penguin](https://justapengu.in/assets/images/brand/penguin.png?v=72ff45da05)
+![just penguin](https://justapengu.in/assets/images/brand/penguin.png?v=72ff45da05){:.center-image}
 
 언제부턴가 Tweetbot이 업데이트가 안 되길래——분명히 앱스토어에서는 더 최신 버전이 있는데도 말이죠——캐시도 날려보고 별의별 난리를 치는데 업데이트가 안 나오더군요. 고민고민하다 결국 완전히 삭제하고 재설치를 하려고 하니 이런 메세지가 나옵니다.
 
