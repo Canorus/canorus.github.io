@@ -8,7 +8,8 @@ permalink:        pretty
 title:            Fabulam Canor
 tagline:          story of Canor
 description:
-baseurl:          http://canorus.github.io/
+baseurl:          https://canor.cf
+#baseurl:          http://canorus.github.io/
 
 author:
   name:           'Canor Eom'
