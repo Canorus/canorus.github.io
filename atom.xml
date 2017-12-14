@@ -16,6 +16,7 @@ layout: null
  </author>
 
  {% for post in site.posts %}
+ {% unless post.menu == {'private'|private} %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
