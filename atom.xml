@@ -15,15 +15,16 @@ layout: null
    <email>{{ site.author.email }}</email>
  </author>
 
- {% for post in site.posts %}
- {% unless post.menu == {'private'|private} %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
+  {% for post in site.posts %}
+    {% unless post.menu == {'private'|private} %}
+    <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endunless %}
+  {% endfor %}
 
 </feed>
