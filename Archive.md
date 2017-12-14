@@ -10,7 +10,7 @@ li{
 <div class="sidebar-archive">
     <div class="post">
         {% for post in site.posts %}
-            {% unless post.menu == 'private' or post.menu == private %}
+            {% unless post.menu == 'private'%}
             {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
             {% if currentyear != year %}
                 {% unless forloop.first %}{% endunless %}
