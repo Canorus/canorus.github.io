@@ -51,27 +51,27 @@ ______ _            _   ______
 }
 
 html {
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', sans-seif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica, Arial;
 }
 
 body {
   color: #848482;
   background-color: #000000;
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica, sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica;
 }
 
 .post-content {
-  font-family: 'Spoqa Han Sans Thin';
+  font-family: 'Spoqa Han Sans Thin', sans-serif;
   line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP','EB Garamond', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP','EB Garamond';
   color: #2EACFF;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'EB Garamond', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'EB Garamond';
   color: #2EACFF;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
@@ -91,7 +91,7 @@ a:hover {
 .btn {
   display: inline-block;
   padding: .25rem 1rem;
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans";
   color: #ebcb8b;
   border: .1rem solid #32343c;
   border-radius: .1rem;
