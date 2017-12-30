@@ -20,7 +20,7 @@ tags:
 - 제스쳐를 통한 리트윗 가능  
   Twitterrific은 멘션과 상세보기만 가능합니다 그것도 iOS에서만
 
-# 트위터리픽
+# Twitterrific
 
 - [커스텀 폰트](http://support.iconfactory.com/kb/twitterrific/advanced-settings-using-the-command-line-macos)
 - 계정 간 전환 키보드 단축키  
