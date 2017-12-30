@@ -3,7 +3,7 @@ layout: "post"
 title: "Alfred alternative action"
 date: "2017-05-07 00:17"
 tags:
-  - alfred
+  - Alfred
 ---
 ![](https://www.alfredapp.com/blog/tips-and-tricks/action-modifiers-quick-alternative-actions/github-default-search.png){:.center-image}
 image from alfred blog.
