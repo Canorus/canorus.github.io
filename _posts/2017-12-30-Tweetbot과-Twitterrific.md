@@ -5,7 +5,7 @@ tags:
  - Application
 ---
 
-# TWeetbot
+# Tweetbot
 
 - 트윗 알림 기능  
   Breaking News나 [지진 알림](https://twitter.com/KMA_earthquake) 같은 트윗을 알림으로 설정해놓으면 상당히 편합니다.
