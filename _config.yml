@@ -15,7 +15,7 @@ author:
   name:           'Canor Eom'
   url:            https://twitter.com/psCanor
 
-paginate:         10
+paginate:         5
 
 plugins:
   - jekyll-feed
