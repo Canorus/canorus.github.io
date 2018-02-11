@@ -2,6 +2,8 @@
 layout: "post"
 title: "Crontab mail"
 date: "2018-02-11 21:06"
+tags: 
+ - study
 ---
 ![crontab](https://d.pr/i/DteLSd+){:.center-image}
 
