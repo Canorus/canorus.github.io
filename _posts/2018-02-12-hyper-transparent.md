@@ -14,3 +14,7 @@ plugins: [
 ```
 
 처음에는 작동하지 않았으나 `homebrew`를 업데이트하고 나니 제대로 동작하고 있습니다. hyperpower는 여전히 작동하지 않고 있습니다.
+
+- - -
+
+- via [hyper-transparent](https://www.npmjs.com/package/hyper-transparent)
