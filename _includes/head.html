@@ -5,6 +5,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script type="text/javascript" src="/js/bigfoot.js"></script>
   <script type="text/javascript" src="/js/jquery.textfill.min.js"></script>
+  <script>
+    function headautowidth(){
+      $('.post').textfill({
+        maxFontPixels: 0,
+        innerTag: 'h1',
+        widthOnly: true
+      });
+    }
+    $(headautowidth);
+  </script>
   <script type="text/javascript">
   	var bigfoot = $.bigfoot(
   		{
