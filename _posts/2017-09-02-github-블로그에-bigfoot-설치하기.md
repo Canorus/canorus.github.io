@@ -3,7 +3,7 @@ layout: post
 title: github 블로그에 bigfoot 적용하기
 tags:
  - study
- - 관리 일지
+ - 관리일지
 ---
 
 어쩐지 요즘 블로그에 손을 많이 대고 있는 것 같은 느낌이다.

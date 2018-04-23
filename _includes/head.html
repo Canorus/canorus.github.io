@@ -4,10 +4,27 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script type="text/javascript" src="/js/bigfoot.js"></script>
+  <!--<script type="text/javascript" src="/js/jquery.textfill.min.js"></script-->
+  <script>
+    function headautowidth(){
+      $('.post-title').textfill({
+        maxFontPixels: 50,
+        innerTag: 'a',
+        widthOnly: true
+      });
+      $('post').textfill({
+        maxFontPixels: 50,
+        innerTag: 'h1',
+        widthOnly: true
+      })
+    }
+  </script>
   <script type="text/javascript">
   	var bigfoot = $.bigfoot(
   		{
-  	  	actionOriginalFN: "ignore",
+  	  	// actionOriginalFN: "ignore",
+        activateOnHover: "true",
+        deleteOnUnhover: "true",
   	  	positionContent: "true"
   		}
   	);

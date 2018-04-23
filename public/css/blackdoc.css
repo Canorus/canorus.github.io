@@ -56,12 +56,13 @@ html {
 
 body {
   color: #848482;
-  background-color: #000000;
+  background-color: #32323A;
   font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica;
 }
 
 .post-content {
-  font-family: 'Spoqa Han Sans Thin', 'Spoqa Han Sans', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif;
+  font-size: 13px;
   line-height: 1.7;
 }
 
@@ -205,7 +206,7 @@ tbody tr:nth-child(odd) th {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #000;
+  background-color: #32323A;
   overflow: auto;
 }
 
@@ -307,6 +308,13 @@ a.sidebar-nav-item:focus {
 .post-title a {
   color: #2EACFF;
   text-decoration: none;
+}
+.post-title,
+.post-title a{
+  font-size: 1.3rem
+}
+#blogtitle{
+  letter-spacing:-1px;
 }
 /* center image */
 .center-image {
