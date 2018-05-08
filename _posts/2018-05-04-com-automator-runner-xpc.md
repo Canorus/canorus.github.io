@@ -2,6 +2,7 @@
 layout: "post"
 title: "com.automator.runner.xpc"
 date: "2018-05-04 09:05"
+menu: private
 tags:
   - troubleshooting
 ---
