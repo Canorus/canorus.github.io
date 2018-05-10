@@ -18,4 +18,4 @@ macOS에서는 Safari를 기본 브라우저로 탑재하고 있습니다. 비�
 
 [^2]: 사실 이게 한 번 세팅을 해놓으면 만족스럽긴 합니다만 세팅하기까지 꽤 귀찮은 수준이라 오히려 이런 단순한 구성도 괜찮더군요.
 
-일단 집에와서 맥미니에 설치되어 있던 Ultimate Status Bar를 [꺼내긴 했는데](https://canor.cf/05/10/사파리-익스텐션-추출하기/) 이걸 맥북 에어에 붙일지는 조금 더 고민을 해봐야 할 것 같습니다. 일단 아쉬운대로 [UBS 익스텐션 파일 첨부](/Resources/2018-05-10/Ultimate\ Status\ Bar.safariextz)
+일단 집에와서 맥미니에 설치되어 있던 Ultimate Status Bar를 [꺼내긴 했는데](https://canor.cf/2018/05/10/사파리-익스텐션-추출하기/) 이걸 맥북 에어에 붙일지는 조금 더 고민을 해봐야 할 것 같습니다. 일단 아쉬운대로 [UBS 익스텐션 파일 첨부](/Resources/2018-05-10/Ultimate\ Status\ Bar.safariextz)
