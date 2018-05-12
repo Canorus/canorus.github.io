@@ -2,10 +2,14 @@
 layout: "post"
 title: "com.automator.runner.xpc"
 date: "2018-05-04 09:05"
-menu: private
 tags:
   - troubleshooting
 ---
+
+- *이하의 과정을 조치했음에도 설정 어플리케이션이 최상위에 위치하는 경우에만 정상작동하는 문제가 지속적으로 발생.*
+- *이하의 과정은 10.13 이상에서는 동작하지 않는 것을 확인하였습니다. 10.12이하에서도 동작하지 않을 수 있습니다.*
+
+- - -
 
 ![message](/images/2018-05-04/automatorrunnerxpc.png){:.center-image}
 
