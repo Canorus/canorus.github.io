@@ -15,7 +15,7 @@ tags:
 
 긴 밤이 될 것 같은 예감과 함께 맥 미니 뒷편에 HDMI 케이블을hwrh 서브 모니터에 DVI 포트를 연결합니다. 그리고 아래와 같은 메세지를 맞닥뜨립니다.
 
-![web driver not compatible]()
+![web driver not compatible](/Resources/2018-06-04/2104-NVIDIADriverManager.png)
 
 \* image from [egpu.io forum](https://egpu.io/forums/mac-setup/no-drivers-found-for-os-x-10-12-5/#post-14343)
 
