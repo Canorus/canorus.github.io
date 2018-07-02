@@ -21,11 +21,11 @@ v.0.1
 
 다음 목표는 스트리밍 API를 이용해서 타임라인 구현하기.
 
- - - -
+- - -
 
 via
 - [python - How to send POST request? - Stack Overflow](https://stackoverflow.com/questions/11322430/how-to-send-post-request)
-- [python - JSON파일을 파이썬으로 읽는 법 | Hashcode](https://hashcode.co.kr/questions/333/json%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EC%9D%BD%EB%8A%94-%EB%B2%95)
+- [python - JSON파일을 파이썬으로 읽는 법 \| Hashcode](https://hashcode.co.kr/questions/333/json%ED%8C%8C%EC%9D%BC%EC%9D%84-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EC%9D%BD%EB%8A%94-%EB%B2%95)
 - [Convert string to JSON using Python - Stack Overflow](https://stackoverflow.com/questions/4528099/convert-string-to-json-using-python)
 - [Requests: HTTP for Humans — Requests 2.19.1 documentation](http://docs.python-requests.org/en/master/?/%20%20%20)
 - [python - Add new keys to a dictionary? - Stack Overflow](https://stackoverflow.com/questions/1024847/add-new-keys-to-a-dictionary)
