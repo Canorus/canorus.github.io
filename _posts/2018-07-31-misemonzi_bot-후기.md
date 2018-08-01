@@ -15,7 +15,7 @@ tags:
 
 ### 잔상 문제
 
-imagemagick에서 `input option` 에 `-dispose previous` 플래그를 주면 배경이 투명한 움짤 gif에서도 잔상이 남는 문제 없이 변환할 수 있습니다. [참조](https://canorus.github.io/2018/07/31/imagemagick)
+imagemagick에서 `input option` 에 `-dispose previous` 플래그를 주면 배경이 투명한 움짤 gif에서도 잔상이 남는 문제 없이 변환할 수 있습니다. [참조](https://canorus.github.io/imagemagick)
 
 다만 이 경우에는 애초에 gif 파일을 내려받으면서 배경을 제거하는 과정에서도 잔상 제거 작업을 해주어야 했는데 이 부분을 간과하고 넘어갔습니다. 찾느라 한참 걸렸네요.
 
