@@ -29,139 +29,162 @@ ______ _            _   ______
  * Update the foundational and global aspects of the page.
  */
 
+
 /*@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);*/
+
 @import "bigfoot-number";
 @import "bigfoot-default";
 @import "base";
 @import "layout";
 @import "syntax-highlighting";
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    src: url(fonts/SpoqaHanSans-Regular_subset.woff);
+}
 
-@font-face{
-  font-family: 'Spoqa Han Sans';
-  src: url(fonts/SpoqaHanSans-Regular_subset.woff);
+@font-face {
+    font-family: 'Spoqa Han Sans Bold';
+    src: url(fonts/SpoqaHanSans-Bold_subset.woff);
 }
-@font-face{
-  font-family: 'Spoqa Han Sans Bold';
-  src: url(fonts/SpoqaHanSans-Bold_subset.woff);
-}
-@font-face{
-  font-family: 'Spoqa Han Sans Thin';
-  src: url(fonts/SpoqaHanSans-Thin_subset.woff);
+
+@font-face {
+    font-family: 'Spoqa Han Sans Thin';
+    src: url(fonts/SpoqaHanSans-Thin_subset.woff);
 }
 
 html {
-  font-family: 'Spoqa Han Sans', sans-seif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica, Arial;
+    font-family: 'Spoqa Han Sans', sans-seif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica, Arial;
 }
 
 body {
-  color: #848482;
-  background-color: #32323A;
-  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica;
+    color: #848482;
+    background-color: #32323A;
+    font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans", Helvetica;
 }
 
 .post-content {
-  font-family: 'Spoqa Han Sans', sans-serif;
-  font-size: 13px;
-  line-height: 1.7;
+    font-family: 'Spoqa Han Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP','EB Garamond';
-  color: #2EACFF;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'EB Garamond';
+    color: #2EACFF;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'EB Garamond';
-  color: #2EACFF;
-  font-kerning: auto;
-  font-feature-settings: "kern","liga","dlig","hlig","cswh";
-  font-synthesis: weight style;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'EB Garamond';
+    color: #2EACFF;
+    font-kerning: auto;
+    font-feature-settings: "kern", "liga", "dlig", "hlig", "cswh";
+    font-synthesis: weight style;
 }
 
 a {
-  color: #55bbff;
-  transition: color ease 0.3s;
-  text-decoration: underline;
+    color: #55bbff;
+    transition: color ease 0.3s;
+    text-decoration: underline;
 }
 
 a:hover {
-  color: #2EACFF;
+    color: #2EACFF;
 }
 
 .btn {
-  display: inline-block;
-  padding: .25rem 1rem;
-  font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans";
-  color: #ebcb8b;
-  border: .1rem solid #32343c;
-  border-radius: .1rem;
+    display: inline-block;
+    padding: .25rem 1rem;
+    font-family: 'Spoqa Han Sans', sans-serif, 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', "PT Sans";
+    color: #ebcb8b;
+    border: .1rem solid #32343c;
+    border-radius: .1rem;
 }
 
 .btn:hover,
 .btn:focus {
-  color: #26282d;
-  background-color: #ebcb8b;
-  border-color: #ebcb8b;
+    color: #26282d;
+    background-color: #ebcb8b;
+    border-color: #ebcb8b;
 }
 
-strong, b {
-  color: #2EACFF;
+strong,
+b {
+    color: #2EACFF;
 }
+
+
 /* Code */
 
 code {
-  color: #993030;
-  white-space: pre-wrap;
-  background-color: #222;
+    color: #993030;
+    white-space: pre-wrap;
+    background-color: #222;
 }
 
 pre {
-  background-color: #222;
+    background-color: #222;
 }
 
-pre { white-space: pre; overflow: auto !important; }
+pre {
+    white-space: pre;
+    overflow: auto !important;
+}
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: rgba(235, 242, 246, 0.29) 1px solid;
-  margin: 1.2em 0;
-  padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: rgba(235, 242, 246, 0.29) 1px solid;
+    margin: 1.2em 0;
+    padding: 0;
 }
 
 blockquote {
-  color: #666;
-  border-left: .25rem solid #333;
+    color: #666;
+    border-left: .25rem solid #333;
 }
 
 td,
 th {
-  padding: .25rem .5rem;
-  border: 1px solid #333;
+    padding: .25rem .5rem;
+    border: 1px solid #333;
 }
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #222;
+    background-color: #222;
 }
 
+
 /* Pagination items can be `span`s or `a`s */
+
 .pagination-item {
-  border: 1px solid #444;
+    border: 1px solid #444;
 }
 
 @media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
+
 @media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
+    html {
+        font-size: 20px;
+    }
 }
+
 
 /*
  * Messages
@@ -171,30 +194,37 @@ tbody tr:nth-child(odd) th {
  */
 
 .message {
-  color: #bbb;
-  background-color: #333;
+    color: #bbb;
+    background-color: #333;
 }
 
+
 /* Gist */
+
 .gist-data {
-  background-color: #222 !important;
-  border-bottom: 1px solid #333 !important;;
+    background-color: #222 !important;
+    border-bottom: 1px solid #333 !important;
+    ;
 }
+
 .gist .markdown-body {
-  color: #999 !important;
+    color: #999 !important;
 }
 
 .gist .markdown-body pre {
-  background-color: #111 !important;
+    background-color: #111 !important;
 }
 
 .gist-file {
-  border: 1px solid #333 !important;;
+    border: 1px solid #333 !important;
+    ;
 }
 
 .gist-meta {
-  background-color: #222 !important;
+    background-color: #222 !important;
 }
+
+
 /*
  * Sidebar
  *
@@ -203,54 +233,63 @@ tbody tr:nth-child(odd) th {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #32323A;
-  overflow: auto;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255, 255, 255, .5);
+    background-color: #32323A;
+    overflow: auto;
 }
 
 @media (min-width: 48em) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 18rem;
+        text-align: left;
+    }
 }
+
 
 /* Sidebar links */
+
 .sidebar a {
-  color: #2EACFF;
+    color: #2EACFF;
 }
+
 
 /* About section */
-.sidebar-about h1 {
-  color: #2EACFF;
-  margin-top: 0;
-  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'Noto Serif', sans-serif;
-  font-size: 2.25rem;
 
+.sidebar-about h1 {
+    color: #2EACFF;
+    margin-top: 0;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans Bold', 'Spoqa Han Sans Thin', 'Spoqa Han Sans JP', 'Noto Serif', sans-serif;
+    font-size: 2.25rem;
 }
+
 
 /* Sidebar nav */
+
 .sidebar-nav {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
-  text-decoration: none;
+    display: block;
+    line-height: 1.75;
+    text-decoration: none;
 }
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 .sidebar-nav-item.active {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 
 /* Sticky sidebar
  *
@@ -259,12 +298,12 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48em) {
-  .sidebar-sticky {
-/*    position: absolute;*/
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
+    .sidebar-sticky {
+        /*    position: absolute;*/
+        right: 1rem;
+        bottom: 1rem;
+        left: 1rem;
+    }
 }
 
 
@@ -275,25 +314,26 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
-  font-size: 16px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 16px;
 }
 
 @media (min-width: 48em) {
-  .content {
-    max-width: 38rem;
-    margin-left: 20rem;
-    margin-right: 2rem;
-  }
+    .content {
+        max-width: 38rem;
+        margin-left: 20rem;
+        margin-right: 2rem;
+    }
 }
 
 @media (min-width: 64em) {
-  .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
-  }
+    .content {
+        margin-left: 22rem;
+        margin-right: 4rem;
+    }
 }
+
 
 /*
  * Posts and pages
@@ -302,33 +342,52 @@ a.sidebar-nav-item:focus {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
+
 /* Blog post or page title */
+
 .page-title,
 .post-title,
 .post-title a {
-  color: #2EACFF;
-  text-decoration: none;
+    color: #2EACFF;
+    text-decoration: none;
 }
+
 .post-title,
-.post-title a{
-  font-size: 1.3rem
+.post-title a {
+    font-size: 1.3rem
 }
-#blogtitle{
-  letter-spacing:-1px;
+
+#blogtitle {
+    letter-spacing: -1px;
 }
+
+
 /* center image */
+
 .center-image {
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* .center-image .small{
   padding-left: auto;
   padding-right: auto;
   margin-left: auto;
   margin-right: auto;
+  width:"50%";
+} */
+
+.small {
+    width: "50%";
 }
-.small{
-	width="50%";
+
+p.via {
+    align: right;
 }
-p.via{
-	align: right;
-}
+
 
 /*
  * Reverse layout
@@ -337,27 +396,28 @@ p.via{
  */
 
 @media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
+    .layout-reverse .sidebar {
+        left: auto;
+        right: 0;
+    }
+    .layout-reverse .content {
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
 }
 
 @media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
+    .layout-reverse .content {
+        margin-left: 4rem;
+        margin-right: 22rem;
+    }
 }
+
 .post-tags,
-.post-tags a{
-  display: inline-block;
-  text-align: right;
-  text-decoration: none;
+.post-tags a {
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
 }
 
 
@@ -368,99 +428,130 @@ p.via{
  * within blog posts. To use, add the class of your choosing to the `body`.
  */
 
+
 /* Base16 (http://chriskempson.github.io/base16/#default) */
 
+
 /* Red */
+
 .theme-base-08 .sidebar {
-  background-color: #ac4142;
+    background-color: #ac4142;
 }
+
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+    color: #ac4142;
 }
+
 
 /* Orange */
+
 .theme-base-09 .sidebar {
-  background-color: #d28445;
+    background-color: #d28445;
 }
+
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {
-  color: #d28445;
+    color: #d28445;
 }
+
 
 /* Yellow */
+
 .theme-base-0a .sidebar {
-  background-color: #f4bf75;
+    background-color: #f4bf75;
 }
+
 .theme-base-0a .content a,
 .theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
+    color: #f4bf75;
 }
+
 
 /* Green */
+
 .theme-base-0b .sidebar {
-  background-color: #90a959;
+    background-color: #90a959;
 }
+
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: #90a959;
+    color: #90a959;
 }
+
 
 /* Cyan */
+
 .theme-base-0c .sidebar {
-  background-color: #75b5aa;
+    background-color: #75b5aa;
 }
+
 .theme-base-0c .content a,
 .theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
+    color: #75b5aa;
 }
+
 
 /* Blue */
+
 .theme-base-0d .sidebar {
-  background-color: #6a9fb5;
+    background-color: #6a9fb5;
 }
+
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+    color: #6a9fb5;
 }
+
 
 /* Magenta */
+
 .theme-base-0e .sidebar {
-  background-color: #aa759f;
+    background-color: #aa759f;
 }
+
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
+    color: #aa759f;
 }
+
 
 /* Brown */
+
 .theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+    background-color: #8f5536;
 }
 
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+    color: #8f5536;
+}
+
+
 /* Thin Scrollbar */
+
 ::-webkit-scrollbar {
-  width: 8px;
+    width: 8px;
 }
+
 ::-webkit-scrollbar-button {
-  width: 8px;
-  height:5px;
+    width: 8px;
+    height: 5px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #333;
-  border: thin solid #111;
-  /*box-shadow: 0px 0px 3px #111 inset;*/
-  border-radius:10px;
+    background: #333;
+    border: thin solid #111;
+    /*box-shadow: 0px 0px 3px #111 inset;*/
+    border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
-  background:#222;
-  border: thin solid #222;
-  border-radius:10px;
+    background: #222;
+    border: thin solid #222;
+    border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background:#7d7d7d;
+    background: #7d7d7d;
 }
