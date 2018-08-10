@@ -87,3 +87,28 @@ via
 \- [imagemagick commandline - resample](https://www.imagemagick.org/script/command-line-options.php?#resample)
 
 \- [imagemagick commandline - scale](https://www.imagemagick.org/script/command-line-options.php?#scale)
+
+### 이미지 사이에 공간 넣기
+
+[포럼](https://www.imagemagick.org/discourse-server/viewtopic.php?t=16383#p59851)에서 언급된 바와 같이 이미지 사이에 공간을 넣는 방법은 `-splice` 를 사용하거나 작은 이미지를 넣는 방법이 있습니다.
+
+우선 작은 이미지를 넣는 방법은 아래와 같은 코드를 사용합니다.
+
+```bash
+convert image1.png image2.jpg -size 10x10 xc:Red +swap -background White -gravity Center +append result.png
+```
+
+위 코드는 `image1.png` 와 `image2.jpg` 뒤에 빨간색 10 * 10 이미지를 생성한 뒤 두번째 이미지와 자리를 바꾸고 흰 배경 위에 중앙 정렬을 함으로써 이미지 사이에 간격을 만들게 됩니다. 이 경우 이미지 사이에는 10 * 10 크기의 빨간 네모가 자리하게 되며 이미지 위 아래로 남는 부분은 흰색으로 처리되게 됩니다. 따라서 배경색과 네모의 색을 같게 함으로써 이미지 사이에 간격을 두는 효과를 만들 수 있습니다.
+
+만일 합칠 이미지가 두 개 이상인 경우에는 `-splice` 를 사용하는 아래 코드를 사용하게 됩니다.
+
+```bash
+convert image1.png image2.jg image3.tiff -background red -splice 10x0+0+0 -gravity center +append +gravity -chop 10X0+0+0 result.png
+```
+
+이 코드는 매 이미지의 앞에 10 크기의 `splice` 를 준 뒤 결과물의 맨 앞에서 10 크기 만큼 잘라내는 방법을 사용합니다. 따라서 이미지 사이 간격을 10을 주게 되는 효과를 발생시키며 위 코드의 경우 간격 사이 색은 빨강으로 칠해지게 됩니다.
+
+via
+
+- [imagemagick forum](https://www.imagemagick.org/discourse-server/viewtopic.php?t=16383#p59851)
+
