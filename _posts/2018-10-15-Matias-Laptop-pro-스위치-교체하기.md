@@ -17,6 +17,8 @@ Matias Laptop Pro는 *기계식 \+ 블루투스 \+ 맥 배열* 의 조합을 갖
 
 ![상판](/images/2018-10-15/cover.JPG){:.center-image}
 
+
+
 ![](/images/2018-10-15/locks.png){:.center-image}
 
 [geekhack](https://geekhack.org/index.php?PHPSESSID=i284gou8nqdg8t348tkeshbclqscen16&topic=49920.0) 글에서 봤을 때는 상판 네 모서리에 고리가 더 있던 것 같아서 조심해서 깠는데 Laptop Pro는 그딴 거 없더군요. 적어도 제 버전은 그랬습니다. 2017년에 개선된 버전 5 [\(아마존 링크\)](https://www.amazon.com/Released-Matias-Laptop-Keyboard-Version/dp/B06X1BYPS8) 가 나온 모양인데 이 쪽은 다를 지도 모르겠습니다. 리뷰를 보니 같은 문제가 여전히 발생하는 듯 합니다.
