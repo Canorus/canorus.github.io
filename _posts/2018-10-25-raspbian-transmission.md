@@ -21,7 +21,7 @@ title: Raspbian Transmission
 
 via
 
-- [Transmission CLI User Guide | cli-ck](https://cli-ck.io/transmission-cli-user-guide/)
+- [Transmission CLI User Guide \| cli-ck](https://cli-ck.io/transmission-cli-user-guide/)
 - [라즈베리파이 토렌트 머신 - Transmission-daemon 설치 및 세팅 :: JHEM Lab](http://vvchunvv.tistory.com/37?category=261867)
 - [linux - Permission Denied on my raspberry pi transmission - Super User](https://superuser.com/questions/1237244/permission-denied-on-my-raspberry-pi-transmission)
 
