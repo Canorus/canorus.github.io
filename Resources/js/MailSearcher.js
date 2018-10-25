@@ -2,8 +2,9 @@ var judgeList = [' ', '강경표  민사38부', '강문경  형사13부', '강�
 
 
 var findingList = judgeList;
-var chosungList = ["ㄱ","ㄲ","ㄴ","ㄷ","ㄸ","ㄹ","ㅁ","ㅂ","ㅃ","ㅅ","ㅆ","ㅇ","ㅈ","ㅉ","ㅊ","ㅋ","ㅌ","ㅍ","ㅎ"];
-function searchJudge(){
+var chosungList = ["ㄱ", "ㄲ", "ㄴ", "ㄷ", "ㄸ", "ㄹ", "ㅁ", "ㅂ", "ㅃ", "ㅅ", "ㅆ", "ㅇ", "ㅈ", "ㅉ", "ㅊ", "ㅋ", "ㅌ", "ㅍ", "ㅎ"];
+
+function searchJudge() {
     var nameInput = document.getElementById("myInput").value;
     var display_name = "";
     // document.getElementById("judgeList").innerHTML = "You wrote: " + judgeList;
@@ -16,25 +17,26 @@ function searchJudge(){
         display_names = "";
         findingList.forEach(
             function(value) {
-               display_names += (value +"</br>");
+                display_names += (value + "</br>");
             }
         )
         document.getElementById("judgeList").innerHTML = display_names;
     }
 }
 
-function isChosung(chosung_candi){
-    if(chosungList.indexOf(chosung_candi) != -1) {
+function isChosung(chosung_candi) {
+    if (chosungList.indexOf(chosung_candi) != -1) {
         return true;
     } else {
         return false;
     }
 }
+
 function toChosung(one_letter) {
-    var nTmp=one_letter.charCodeAt(0) - 0xAC00;
-    var jong=nTmp % 28; // 종성
-    var jung=( (nTmp-jong)/28 ) % 21; // 중성
-    var cho=( ( (nTmp-jong)/28 ) - jung ) / 21; // 초성
+    var nTmp = one_letter.charCodeAt(0) - 0xAC00;
+    var jong = nTmp % 28; // 종성
+    var jung = ((nTmp - jong) / 28) % 21; // 중성
+    var cho = (((nTmp - jong) / 28) - jung) / 21; // 초성
     return chosungList[cho];
 }
 
@@ -42,7 +44,7 @@ function findJudge(nameInput) {
     var nameInputLength = nameInput.length;
     var tmpList = judgeList;
     var resultList = [];
-    for( var i = 0; i < nameInputLength; i++) {
+    for (var i = 0; i < nameInputLength; i++) {
         resultList = [];
         // alert(resultList);
         if (isChosung(nameInput[i])) {
