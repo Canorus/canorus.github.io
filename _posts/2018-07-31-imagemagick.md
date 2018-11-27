@@ -88,6 +88,24 @@ via
 
 \- [imagemagick commandline - scale](https://www.imagemagick.org/script/command-line-options.php?#scale)
 
+이미지의 *크기* [^1]를 조절할 때에는 `-resize` 옵션을 사용합니다
+
+```bash
+convert input.png -resize width[xheight] output.format
+```
+
+이 경우 비율은 유지되며 지정한 공간 안에 맞도록 축소가 됩니다. 비율을 무시하고 지정한 크기에 꽉 채우려면
+
+```bash
+convert input.png -resize widthxheight\! output.format
+```
+
+처럼 `!` 를 붙여줍니다.
+
+- [Resizing or Scaling -- IM v6 Examples](https://www.imagemagick.org/Usage/resize/#resize)
+
+\* `-append` 나 `+append` 의 경우 이미지의 가로 세로가 다르면 남는 공간에는 `-background` 에서 지정한 색이 보충되게 됩니다. 이런 경우에는 사전 작업으로 `resize` 해 준 다음에 `-append` 나 `+append` 해주면 됩니다.
+
 ### 이미지 사이에 공간 넣기
 
 [포럼](https://www.imagemagick.org/discourse-server/viewtopic.php?t=16383#p59851)에서 언급된 바와 같이 이미지 사이에 공간을 넣는 방법은 `-splice` 를 사용하거나 작은 이미지를 넣는 방법이 있습니다.
