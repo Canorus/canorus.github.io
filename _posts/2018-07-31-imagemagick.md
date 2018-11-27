@@ -152,3 +152,5 @@ via
 |    o%**x**value-y%    |             높이의 value-y % 만큼 상하에만 추가              |
 
 \* value-x 와 value-y 는 모두 숫자이며 볼드 처리된 x는 문자 x 입니다.
+
+- [Command-line Options @ ImageMagick](https://www.imagemagick.org/script/command-line-options.php#border)
