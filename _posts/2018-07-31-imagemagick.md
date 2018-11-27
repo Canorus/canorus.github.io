@@ -88,7 +88,7 @@ via
 
 \- [imagemagick commandline - scale](https://www.imagemagick.org/script/command-line-options.php?#scale)
 
-이미지의 *크기* [^1]를 조절할 때에는 `-resize` 옵션을 사용합니다
+이미지의 *크기* 를 조절할 때에는 `-resize` 옵션을 사용합니다
 
 ```bash
 convert input.png -resize width[xheight] output.format
