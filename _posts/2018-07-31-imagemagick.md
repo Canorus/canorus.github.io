@@ -130,3 +130,25 @@ via
 
 - [imagemagick forum](https://www.imagemagick.org/discourse-server/viewtopic.php?t=16383#p59851)
 
+### 이미지 주변에 가장자리 추가하기
+
+`-border` 를 사용하여 이미지 주변에 가장자리를 추가할 수 있습니다. 사용하기에 앞서 `-bordercolor` 를 사용하여 색상을 지정해줍니다.
+
+나중에는 어떻게 바뀔지 모르겠지만 ImageMagick 6.7.8-8에서는 이미지의 %와 특정 크기 두 가지의 옵션을 제공하고 있습니다.
+
+|         세팅          |                             설명                             |
+| :-------------------: | :----------------------------------------------------------: |
+|         value         |                  value만큼 상하좌우에 추가                   |
+|     value-x**x**      |                  value-x 만큼 좌우에만 추가                  |
+|     **x**value-y      |                  value-y 만큼 상하에만 추가                  |
+|  value-x**x**value-y  |         value-x 만큼 좌우에, value-y만큼 상하에 추가         |
+|     value-x**x**o     |                     value-x**x** 와 동일                     |
+|     o**x**value-y     |                     value-**y** 와 동일                      |
+|        value%         |        높이과 폭의 value % 만큼 각각 상하/좌우에 추가        |
+|     value-x**x**%     |             폭의 value-x % 만큼 상하좌우에 추가              |
+|     **x**value-y%     |            높이의 value-y % 만큼 상하좌우에 추가             |
+| value-x%**x**value-y% | 높이의 value-y % 만큼 상하에, 폭의 value-x % 만큼 좌우에 추가 |
+|    value-x%**x**o%    |              폭의 value-x % 만큼 좌우에만 추가               |
+|    o%**x**value-y%    |             높이의 value-y % 만큼 상하에만 추가              |
+
+\* value-x 와 value-y 는 모두 숫자이며 볼드 처리된 x는 문자 x 입니다.
