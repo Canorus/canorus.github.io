@@ -7,11 +7,11 @@ tags:
 
 터미널 실행할 때 ssh-agent를 자동으로 실행시켜주고 싶어서 찾다보니 .bashrc 와 .bash_profile 의 차이를 이해할 필요가 있었다. 간략하게 정리해 보았다.
 
-## Login Shell vs. Non-Login Shell
+### Login Shell vs. Non-Login Shell
 
 Login Shell은 *ID와 패스워드를 입력해서 Shell을 실행하는 것*을 가리킨다. 반면 Non-Login Shell은 이러한 입력없이 Shell을 실행하는 것을 가리킨다.
 
-## .bashrc vs. .bash_profile
+### .bashrc vs. .bash_profile
 
 **.bashrc**는 Non-Login Shell 을 구동할 때 실행된다. Gnome이나 KDE에서 로그인한 상태로 새 윈도우를 여는 경우에 .bashrc가 실행된다.
 
@@ -21,7 +21,7 @@ Login Shell은 *ID와 패스워드를 입력해서 Shell을 실행하는 것*을
 
 **.bash\_logout** 이라는 것도 있는데 Shell에서 로그아웃할 때 실행되는 스크립트다.
 
-## macOS
+### macOS
 
 [Josh Staiger의 2005년 글](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)에 따르면 맥은 OS X 시절부터 터미널 창을 열 때마다 Non-Login Shell 대신 Login Shell을 실행시킴으로써 .bashrc 대신 .bash_profile 을 실행시켜왔다.
 
