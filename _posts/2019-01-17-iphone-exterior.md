@@ -25,6 +25,8 @@ permalink: /iphone-exterior
 
 [핸드폰찾기 콜센터](http://www.handphone.or.kr)를 통해서 폰이 돌아왔는데 놀랍게도 전혀 깨지지 않고 케이스 모서리만 약간 갈린 채로 돌아옴. 믿고 쓰는 슈피겐이라는 이미지를 각인시킨 사건.
 
+![TPU 소재는 갈변의 우려가 있다.](/images/2019-01-24/old_spigen.png){:.center-image}
+
 다만 근 일 년 간 사용하면서 느낀 문제는 소재가 TPU인만큼 색이 갈색으로 변한다는 문제가 발생. 해서 2019. 1. 21. Gmarket에서 슈피겐 제품 할인을 하길래 [이 제품](http://item.gmarket.co.kr/detailview/item.asp?goodscode=1503350972)을 냉큼 질러버림. 당시 구매가 9,900. 케이스 치고는 대단히 저렴한 가격.
 
 ### Slickwraps
