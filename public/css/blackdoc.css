@@ -379,6 +379,11 @@ p.via {
     text-align: right;
 }
 
+p.caption {
+    text-align: center;
+    margin-top: 1%;
+}
+
 
 /*
  * Reverse layout
@@ -409,10 +414,6 @@ p.via {
     display: inline-block;
     text-align: right;
     text-decoration: none;
-}
-
-img+em {
-    text-align: center;
 }
 
 
