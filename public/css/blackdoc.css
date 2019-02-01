@@ -411,6 +411,10 @@ p.via {
     text-decoration: none;
 }
 
+img+em {
+    text-align: center;
+}
+
 
 /*
  * Themes
