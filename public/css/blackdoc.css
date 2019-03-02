@@ -376,7 +376,12 @@ a.sidebar-nav-item:focus {
 }
 
 p.via {
-    align: right;
+    text-align: right;
+}
+
+p.caption {
+    text-align: center;
+    margin-top: 1%;
 }
 
 
