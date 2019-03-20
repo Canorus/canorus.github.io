@@ -15,19 +15,19 @@ macOS의 커맨드라인에서 `man diskutil` 을 쳐서 확인을 해보면 명
 
 > mountDisk device
 >
-> unmountDisk | umountDisk [force] device
+> unmountDisk \| umountDisk [force] device
 >
 > eject device
 > 
-> eraseDisk format name [APM[Format] | MBR[Format] | GPT[Format]] device
+> eraseDisk format name \[APM\[Format] \| MBR[Format] \| GPT[Format]] device
 >
 > eraseVolume format name device
 > 
-> partitionDisk device \[numberOfPartitions] \[APM\[Format] | MBR\[Format] | GPT\[Format]] [part1Format
+> partitionDisk device \[numberOfPartitions] \[APM\[Format] \| MBR\[Format] \| GPT\[Format]] [part1Format
 >                part1Name part1Size part2Format part2Name part2Size part3Format part3Name part3Size
 >               ...]
 >
-> resizeVolume device limits | mapsize \[-plist] | R | size \[numberOfPartitions] [part1Format
+> resizeVolume device limits \| mapsize \[-plist] \| R \| size \[numberOfPartitions] [part1Format
 >                part1Name part1Size part2Format part2Name part2Size part3Format part3Name part3Size
 >                ...]
 
