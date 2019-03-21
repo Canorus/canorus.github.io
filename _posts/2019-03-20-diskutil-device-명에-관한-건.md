@@ -37,28 +37,28 @@ macOS의 커맨드라인에서 `man diskutil` 을 쳐서 확인을 해보면 명
 > DEVICES
 >   A device parameter for any of the above commands (except where explicitly required otherwise) can
 >   usually be any of the following:
->
->     o   The disk identifier (see below).  Any entry of the form of disk*, e.g.  disk1s9.
+> 
+>    o   The disk identifier (see below).  Any entry of the form of disk\*, e.g.  disk1s9.
 >        
->     o   The device node entry containing the disk identifier.  Any entry of the form of
->       /dev/[r]disk*, e.g.  /dev/disk2.
+>    o   The device node entry containing the disk identifier.  Any entry of the form of
+>    /dev/[r]disk\*, e.g.  /dev/disk2.
 >        
->     o   The volume mount point.  Any entry of the form of /Volumes/*, e.g.  /Volumes/Untitled.
->       In most cases, a "custom" mount point e.g.  /your/custom/mountpoint/here is also
->       accepted.
+>    o   The volume mount point.  Any entry of the form of /Volumes/\*, e.g.  /Volumes/Untitled.
+>    In most cases, a "custom" mount point e.g.  /your/custom/mountpoint/here is also
+>    accepted.
 >        
->     o   The URL form of any of the volume mount point forms described above.  E.g.
->         file:///Volumes/Untitled or file:///.
+>    o   The URL form of any of the volume mount point forms described above.  E.g.
+>    file:///Volumes/Untitled or file:///.
 >        
->     o   A UUID.  Any entry of the form of e.g.  11111111-2222-3333-4444-555555555555.  The UUID
->         can be a "media" UUID which IOKit places in an IOMedia node as derived from e.g. a GPT
->         map's partition UUID, or it can be an AppleRAID (or CoreStorage) set (LV) or member
->         (PV) UUID.
+>    o   A UUID.  Any entry of the form of e.g.  11111111-2222-3333-4444-555555555555.  The UUID
+>    can be a "media" UUID which IOKit places in an IOMedia node as derived from e.g. a GPT
+>    map's partition UUID, or it can be an AppleRAID (or CoreStorage) set (LV) or member
+>    (PV) UUID.
 >        
->     o   A volume name, e.g.  Untitled.  This match is only attempted if the given device is not
->         of the form \[/dev/]\[r]disk*, nor [/Volumes/]*.  The match attempt is against the
->         intrinsic volume label, not against the terminal component, if mounted, of its mount
->         point.
+>    o   A volume name, e.g.  Untitled.  This match is only attempted if the given device is not
+>    of the form \[/dev/]\[r]disk\*, nor [/Volumes/]\*.  The match attempt is against the
+>    intrinsic volume label, not against the terminal component, if mounted, of its mount
+>    point.
 
 그러니까 disk identifier나 node entry 외에도 마운트 포인트나 마운트 포인트를 가리키는 URL 형식, 기기 UUID나 볼륨 명도 deivce 파라미터로 쓸 수 있다는 겁니다. 볼륨 이름은 유용하겠네요.
 
