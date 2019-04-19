@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/canor
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://canorus.github.io
+  * I am canor (https://keybase.io/canor) on keybase.
+  * I have a public key ASBJ2QMgu850Al2zxJ8BzTlkkwcSHSfTgnf391N9nln1vgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c50ca8566324ee8118ef56d49f97d254d13bf580a192f7b93ccdba1778f39aab0a",
+      "host": "keybase.io",
+      "kid": "012049d90320bbce74025db3c49f01cd39649307121d27d38277f7f7537d9e59f5be0a",
+      "uid": "700b0ed1660b3ac72c2be34e69e16b19",
+      "username": "canor"
+    },
+    "merkle_root": {
+      "ctime": 1555639755,
+      "hash": "7a372c1a5cebbbe4599fd7035d98c90986e6b0e3464c52069639fc088f266b5ae7c8f5bcff19e17367a6a79dc2aca070a244f617197ab954a86c2c6e4222684e",
+      "hash_meta": "7faf025e45f77c8589a2b59dca550f64722f414b37c4cb7d9a483abb738a1f98",
+      "seqno": 5203020
+    },
+    "service": {
+      "entropy": "ZfnsuOlrgGlgwIkLoJ1mldMf",
+      "hostname": "canorus.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1555639820,
+  "expire_in": 504576000,
+  "prev": "ba86ae33ab29ed9d750803999584ed31f3abe06ec250168acd268d4f97d30dff",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSdkDILvOdAJds8SfAc05ZJMHEh0n04J39/dTfZ5Z9b4Kp3BheWxvYWTESpcCEMQguoauM6sp7Z11CAOZlYTtMfOr4G7CUBaKzSaNT5fTDf/EIPf2MvxnFSg5+wn6B4sJ/EJBsph1rYTKqWClcyhuMR6OAgHCo3NpZ8RAZDUR1K46kNXGFPXsDAWINWu1bZcm38LQObMP4BzSd9uEm3rGJUW9xH6JTYrosluq0aGmjY8BscJ7W/oSLO/3CKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ/n5clLwZt8J7SfbOYHaxredNljb/j/1SU2RvALh6cZo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/canor
+
+==================================================================
