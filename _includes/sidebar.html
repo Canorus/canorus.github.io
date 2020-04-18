@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-<style>
-#searchBar {
-    font-size: 80%;
-    padding: 0.43em 0 0.57em;
-    #search {
-        float: right;
-        #searchString {
-            width: 283px;
-            border: none;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-            padding: 0.3em 0.6em;
-            background-color: #f6f5ea;
-            margin-right: 0;
+    <style>
+        #searchBar {
+            font-size: 80%;
+            padding: 0.43em 0 0.57em;
+            #search {
+                float: right;
+                #searchString {
+                    width: 283px;
+                    border: none;
+                    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+                    padding: 0.3em 0.6em;
+                    background-color: #f6f5ea;
+                    margin-right: 0;
+                }
+                #searchButton {
+                    padding: 0.3em 0.6em;
+                    background-color: #0B5485;
+                    border: 1px solid #f6f5ea;
+                    margin-left: 0;
+                    color: $white;
+                    -webkit-appearance: none;
+                    border-radius: 0;
+                }
+                #archives {
+                    line-height: 2;
+                    float: left;
+                    color: $black;
+                    text-wrap: avoid;
+                }
+            }
         }
-        #searchButton {
-            padding: 0.3em 0.6em;
-            background-color: #0B5485;
-            border: 1px solid #f6f5ea;
-            margin-left: 0;
-            color: $white;
-            -webkit-appearance: none;
-            border-radius: 0;
-        }
-        #archives {
-            line-height: 2;
-            float: left;
-            color: $black;
-            text-wrap: avoid;
-        }
-    }
-}
-</style>
+    </style>
 </head>
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1 id="blogtitle">
-        <a href="{{ site.baseurl }}" style="text-decoration: none">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <h1 id="blogtitle">
+                <a href="{{ site.baseurl }}" style="text-decoration: none">
           {{ site.title }}
         </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
-    </div>
-<!--
+            </h1>
+            <p class="lead">{{ site.description }}</p>
+        </div>
+        <!--
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
@@ -96,6 +97,6 @@
     </nav>
 
     <p style="font-size:0.5rem">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-  </div>
+  -->
+    </div>
 </div>
--->
