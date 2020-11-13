@@ -9,7 +9,7 @@ title: split_download.sh
 
 그럴 때 유용하게 썼던 앱이 바로 [downloadshuttle](https://apps.apple.com/kr/app/download-shuttle-speed-boost/id847809913?mt=12) 이다. 다운로드 링크만 따면 파일을 분할해서 받을 수 있도록 해주는 앱이다.
 
-이 앱이 한가지 아쉬웠던 점이 맥에서만 돌아간다는 점이었다. 우분투나 윈도우에서도 사용할 수 있는 방법이 있었으면 했다. `split download` 키워드로 검색을 했더니 `curl` 명령어에서 `--range` 옵션으로 다운로드 데이터를 바이트 단위로 나눠 받을 수 있다는 것을 [알게 되었다](https://www.maketecheasier.com/split-download-large-file-curl/). 내친 김에 bash 스크립트로 작성해보자는 생각이 들었다. 나중에 알게 된 사실인데 이미 2013년에 거의 완전히 같은 코드를 작성한 [리포](https://github.com/antonyho/bash-split-download) 가 있었다는 게 함정이라면 함정이다.
+이 앱이 한가지 아쉬웠던 점이 맥에서만 돌아간다는 점이었다. 우분투나 윈도우에서도 사용할 수 있는 방법이 있었으면 했다. `split download` 키워드로 검색을 했더니 `curl` 명령어에서 `--range` 옵션으로 다운로드 데이터를 바이트 단위로 나눠 받을 수 있다는 것을 [알게 되었다](https://www.maketecheasier.com/split-download-large-file-curl/). 내친 김에 bash 스크립트로 작성해보자는 생각이 들었다. 나중에 알게 된 사실인데 이미 2013년에 거의 완전히 같은 코드를 작성한 [리포](https://github.com/antonyho/bash-split-download)가 있었다는 게 함정이라면 함정이다.
 
 일단 작성한 코드는 [Github 리포](https://github.com/Canorus/split_download) 에 올려두었다. 3.2.56(1) 버전 bash 에서 동작하는 걸 확인했고 맥의 경우 gawk 를 별도로 설치해주어야 한다.[^1] macOS 의 경우 curl 이 기본적으로 탑재되어 있으며 리눅스의 경우도 대부분 curl이 기본 탑재되어 있다.[^2]
 
@@ -23,7 +23,7 @@ title: split_download.sh
 bash split_download.sh '다운로드링크'
 ```
 
-쪼개는 수를 달리하고 싶은 경우에는 `'다운로드링크'c` 뒤에 쪼개고자 하는 갯수를 입력하면 된다.
+쪼개는 수를 달리하고 싶은 경우에는 `'다운로드링크'` 뒤에 쪼개고자 하는 갯수를 입력하면 된다.
 
 ```
 bash split_download.sh 'https://raw.githubusercontent.com/Canorus/split_download/main/split_download.sh' 8
