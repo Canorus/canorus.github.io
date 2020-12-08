@@ -1,0 +1,26 @@
+---
+layout: post
+title: ls 역시간순 정렬하기
+---
+
+`ls` 명령어를 이용해서 디렉터리 안의 항목을 리스트 할 수 있다. `-t` 플래그를 주면 마지막 업데이트 시각을 기준으로 정렬하고 `-u` 플래그로 마지막 액세스 시각을 기준으로 정렬할 수 있다. 그리고 `-U` 플래그로 생성일 기준 정렬을 할 수 있다.
+
+```
+     -t      Sort by time modified (most recently modified first) before sorting the operands by lexicographi-
+             cal order.
+
+     -u      Use time of last access, instead of last modification of the file for sorting (-t) or long print-
+             ing (-l).
+
+     -U      Use time of file creation, instead of last modification for sorting (-t) or long output (-l).
+```
+
+끝으로 `-r` 플래그로 역순 정렬을 할 수 있다. [(StackOverflow)](https://stackoverflow.com/a/36669101)
+
+그러니까 아래와 같은 명령어로 역시간순, 그러니까 가장 최근에 업데이트한 파일이 보이도록 `ls` 할 수 있다. 비슷하게 `u` 나 `U` 를 활용할 수 있겠다.
+
+```
+ls -t -r
+```
+
+요걸 `~/.bashrc` 에 `alias lst="ls -t -r"` 해두었다.
