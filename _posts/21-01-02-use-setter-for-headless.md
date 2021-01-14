@@ -25,4 +25,3 @@ options.set_headless()
 options.headless = True
 ```
 
-를 쓰란다. 뭐가 유의미한 차이가 있는지는 모르겠지만 아무튼 저렇게 하니 워닝이 뜨지 않는다.
